@@ -42,6 +42,8 @@
             button9 = new Button();
             button10 = new Button();
             label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -119,7 +121,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(126, 38);
+            label1.Location = new Point(128, 68);
             label1.Name = "label1";
             label1.Size = new Size(142, 20);
             label1.TabIndex = 8;
@@ -128,7 +130,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(126, 68);
+            label2.Location = new Point(128, 98);
             label2.Name = "label2";
             label2.Size = new Size(67, 20);
             label2.TabIndex = 9;
@@ -137,7 +139,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(199, 68);
+            label3.Location = new Point(201, 98);
             label3.Name = "label3";
             label3.Size = new Size(17, 20);
             label3.TabIndex = 10;
@@ -160,6 +162,7 @@
             button10.TabIndex = 12;
             button10.Text = "마이페이지";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += Move_Mypage;
             // 
             // label4
             // 
@@ -170,11 +173,31 @@
             label4.TabIndex = 13;
             label4.Text = "게임목록";
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(178, 38);
+            label5.Name = "label5";
+            label5.Size = new Size(17, 20);
+            label5.TabIndex = 15;
+            label5.Text = "0";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(128, 38);
+            label6.Name = "label6";
+            label6.Size = new Size(52, 20);
+            label6.TabIndex = 14;
+            label6.Text = "레벨 : ";
+            // 
             // MainPage
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label5);
+            Controls.Add(label6);
             Controls.Add(label4);
             Controls.Add(button10);
             Controls.Add(button9);
@@ -212,5 +235,7 @@
         private Button button9;
         private Button button10;
         private Label label4;
+        private Label label5;
+        private Label label6;
     }
 }

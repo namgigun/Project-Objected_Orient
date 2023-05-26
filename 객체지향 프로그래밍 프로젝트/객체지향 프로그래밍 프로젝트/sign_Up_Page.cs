@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace 객체지향_프로그래밍_프로젝트
 {
-    public partial class Login : Form
+    public partial class sign_Up_Page : Form
     {
-        public Login()
+        public sign_Up_Page()
         {
             InitializeComponent();
-        }
-
-        private void Move_Sign_up(object sender, EventArgs e)
-        {
-            this.Visible = false;
-            sign_Up_Page sign_Up_Page = new sign_Up_Page();
-            sign_Up_Page.ShowDialog();
         }
     }
 }

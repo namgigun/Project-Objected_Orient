@@ -1,0 +1,20 @@
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.csproj.AssemblyReference.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.Login.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.MainPage.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.Mypage.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.csproj.GenerateResource.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.AssemblyInfoInputs.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.AssemblyInfo.cs
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.csproj.CoreCompileInputs.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.deps.json
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.runtimeconfig.json
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\refint\객체지향 프로그래밍 프로젝트.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.genruntimeconfig.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\ref\객체지향 프로그래밍 프로젝트.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.sign_Up_Page.resources

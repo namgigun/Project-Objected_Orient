@@ -21,5 +21,12 @@ namespace 객체지향_프로그래밍_프로젝트
         {
 
         }
+
+        private void Move_Mypage(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Mypage mypage = new Mypage();
+            mypage.ShowDialog();
+        }
     }
 }

@@ -34,18 +34,16 @@
             label1 = new Label();
             textBox2 = new TextBox();
             textBox1 = new TextBox();
-            button2 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(530, 226);
+            button1.Location = new Point(332, 288);
             button1.Name = "button1";
             button1.Size = new Size(121, 55);
             button1.TabIndex = 11;
-            button1.Text = "회원가입";
+            button1.Text = "로그인";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += Move_Sign_up;
             // 
             // label3
             // 
@@ -89,21 +87,11 @@
             textBox1.Size = new Size(226, 27);
             textBox1.TabIndex = 6;
             // 
-            // button2
-            // 
-            button2.Location = new Point(530, 143);
-            button2.Name = "button2";
-            button2.Size = new Size(121, 55);
-            button2.TabIndex = 12;
-            button2.Text = "로그인";
-            button2.UseVisualStyleBackColor = true;
-            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -124,6 +112,5 @@
         private Label label1;
         private TextBox textBox2;
         private TextBox textBox1;
-        private Button button2;
     }
 }

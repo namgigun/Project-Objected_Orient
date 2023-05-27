@@ -10,8 +10,5 @@
     <Compile Update="Mypage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="sign_Up_Page.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

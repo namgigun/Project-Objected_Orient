@@ -19,7 +19,6 @@ namespace 객체지향_프로그래밍_프로젝트
 
         private void Move_Sign_Up(object sender, EventArgs e)
         {
-            this.Visible = false;
             SignUpPage signUpPage = new SignUpPage();
             signUpPage.ShowDialog();
         }

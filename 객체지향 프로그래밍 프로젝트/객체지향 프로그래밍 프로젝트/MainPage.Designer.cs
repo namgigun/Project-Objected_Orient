@@ -160,6 +160,7 @@
             button10.TabIndex = 12;
             button10.Text = "마이페이지";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += Move_MyPage;
             // 
             // label4
             // 

@@ -9,22 +9,25 @@ namespace 객체지향_프로그래밍_프로젝트
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            using (Mutex mutex = new Mutex(true, MutexName, out bool createdNew))
+            string mtxName = "Metashower";
+            Mutex mtx = new Mutex(true, mtxName);
+
+            // 1초 동안 뮤텍스를 획득하려 대기  
+            TimeSpan tsWait = new TimeSpan(0, 0, 1);
+            bool success = mtx.WaitOne(tsWait);
+
+            // 실패하면 프로그램 종료  
+            if (!success)
             {
-                if (createdNew)
-                {
-                    Application.EnableVisualStyles();
-                    Application.SetCompatibleTextRenderingDefault(false);
-                    Application.Run(new Login());
-                }
-                else
-                {
-                    // 이미 실행 중인 경우 처리할 로직
-                    // 예를 들어 기존 인스턴스로 포커스를 이동시킬 수 있습니다.
-                }
+                MessageBox.Show("이미실행중입니다.");
+                return;
+
             }
+
+            // 성공하면 폼 실행  
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Login());
         }
     }
 }

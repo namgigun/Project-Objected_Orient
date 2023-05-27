@@ -17,7 +17,7 @@ namespace 객체지향_프로그래밍_프로젝트
                 {
                     Application.EnableVisualStyles();
                     Application.SetCompatibleTextRenderingDefault(false);
-                    Application.Run(new MainPage());
+                    Application.Run(new Login());
                 }
                 else
                 {

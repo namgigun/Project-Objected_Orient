@@ -48,9 +48,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(41, 88);
             label2.Name = "label2";
-            label2.Size = new Size(84, 20);
+            label2.Size = new Size(89, 20);
             label2.TabIndex = 1;
-            label2.Text = "플레이시간";
+            label2.Text = "플레이 시간";
             // 
             // label3
             // 

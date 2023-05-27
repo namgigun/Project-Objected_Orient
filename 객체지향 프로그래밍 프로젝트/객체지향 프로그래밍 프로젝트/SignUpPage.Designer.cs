@@ -34,8 +34,6 @@
             textBox2 = new TextBox();
             label3 = new Label();
             textBox3 = new TextBox();
-            label4 = new Label();
-            textBox4 = new TextBox();
             button1 = new Button();
             label5 = new Label();
             SuspendLayout();
@@ -50,7 +48,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(207, 102);
+            label1.Location = new Point(192, 102);
             label1.Name = "label1";
             label1.Size = new Size(54, 20);
             label1.TabIndex = 1;
@@ -59,7 +57,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(207, 157);
+            label2.Location = new Point(192, 157);
             label2.Name = "label2";
             label2.Size = new Size(54, 20);
             label2.TabIndex = 3;
@@ -88,30 +86,15 @@
             textBox3.Size = new Size(237, 27);
             textBox3.TabIndex = 4;
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(157, 264);
-            label4.Name = "label4";
-            label4.Size = new Size(104, 20);
-            label4.TabIndex = 7;
-            label4.Text = "비밀번호 체크";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(267, 261);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(237, 27);
-            textBox4.TabIndex = 6;
-            // 
             // button1
             // 
-            button1.Location = new Point(316, 325);
+            button1.Location = new Point(312, 259);
             button1.Name = "button1";
             button1.Size = new Size(126, 78);
             button1.TabIndex = 8;
             button1.Text = "가입하기";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += SignUp_Button_Click;
             // 
             // label5
             // 
@@ -130,8 +113,6 @@
             ClientSize = new Size(800, 450);
             Controls.Add(label5);
             Controls.Add(button1);
-            Controls.Add(label4);
-            Controls.Add(textBox4);
             Controls.Add(label3);
             Controls.Add(textBox3);
             Controls.Add(label2);
@@ -152,8 +133,6 @@
         private TextBox textBox2;
         private Label label3;
         private TextBox textBox3;
-        private Label label4;
-        private TextBox textBox4;
         private Button button1;
         private Label label5;
     }

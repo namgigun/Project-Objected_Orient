@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            nicknameBox = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            textBox2 = new TextBox();
+            IdBox = new TextBox();
             label3 = new Label();
-            textBox3 = new TextBox();
+            PwdBox = new TextBox();
             button1 = new Button();
             label5 = new Label();
             SuspendLayout();
             // 
-            // textBox1
+            // nicknameBox
             // 
-            textBox1.Location = new Point(267, 102);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(237, 27);
-            textBox1.TabIndex = 0;
+            nicknameBox.Location = new Point(267, 102);
+            nicknameBox.Name = "nicknameBox";
+            nicknameBox.Size = new Size(237, 27);
+            nicknameBox.TabIndex = 0;
             // 
             // label1
             // 
@@ -63,12 +63,12 @@
             label2.TabIndex = 3;
             label2.Text = "아이디";
             // 
-            // textBox2
+            // IdBox
             // 
-            textBox2.Location = new Point(267, 154);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(237, 27);
-            textBox2.TabIndex = 2;
+            IdBox.Location = new Point(267, 154);
+            IdBox.Name = "IdBox";
+            IdBox.Size = new Size(237, 27);
+            IdBox.TabIndex = 2;
             // 
             // label3
             // 
@@ -79,12 +79,12 @@
             label3.TabIndex = 5;
             label3.Text = "비밀번호";
             // 
-            // textBox3
+            // PwdBox
             // 
-            textBox3.Location = new Point(267, 205);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(237, 27);
-            textBox3.TabIndex = 4;
+            PwdBox.Location = new Point(267, 205);
+            PwdBox.Name = "PwdBox";
+            PwdBox.Size = new Size(237, 27);
+            PwdBox.TabIndex = 4;
             // 
             // button1
             // 
@@ -114,11 +114,11 @@
             Controls.Add(label5);
             Controls.Add(button1);
             Controls.Add(label3);
-            Controls.Add(textBox3);
+            Controls.Add(PwdBox);
             Controls.Add(label2);
-            Controls.Add(textBox2);
+            Controls.Add(IdBox);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(nicknameBox);
             Name = "SignUpPage";
             Text = "SignUpPage";
             ResumeLayout(false);
@@ -127,12 +127,12 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox nicknameBox;
         private Label label1;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox IdBox;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox PwdBox;
         private Button button1;
         private Label label5;
     }

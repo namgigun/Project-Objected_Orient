@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace 객체지향_프로그래밍_프로젝트
 {
     public partial class Login : Form
     {
+        DBManager dbManager = new DBManager();
+
         public Login()
         {
             InitializeComponent();
@@ -21,6 +24,34 @@ namespace 객체지향_프로그래밍_프로젝트
         {
             SignUpPage signUpPage = new SignUpPage();
             signUpPage.ShowDialog();
+        }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+            Boolean success = false;
+
+            Member member = new Member();
+            member.ID = IdBox.Text;
+            member.PWD = PwdBox.Text; 
+
+            String Query = String.Format("SELECT * FROM Data.Member");
+
+            DataTable table = dbManager.select(Query);
+
+           foreach(DataRow row in table.Rows)
+           {
+                if (member.ID == row["ID"].ToString() && member.PWD == row["PWD"].ToString()) {
+                    MessageBox.Show("로그인 성공!");
+                    success = true;
+                    MainPage mainPage = new MainPage();
+                    mainPage.ShowDialog();
+                    break;
+                }
+           }
+
+            if (!success) {
+                MessageBox.Show("로그인 실패!");
+            }
         }
     }
 }

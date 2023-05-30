@@ -36,11 +36,9 @@
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
+            NickName_Label = new Label();
             button9 = new Button();
-            button10 = new Button();
+            Mypage_Button = new Button();
             label4 = new Label();
             SuspendLayout();
             // 
@@ -116,32 +114,14 @@
             button8.Text = "button8";
             button8.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // NickName_Label
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(126, 38);
-            label1.Name = "label1";
-            label1.Size = new Size(142, 20);
-            label1.TabIndex = 8;
-            label1.Text = "User 님 환영합니다.";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(126, 68);
-            label2.Name = "label2";
-            label2.Size = new Size(67, 20);
-            label2.TabIndex = 9;
-            label2.Text = "포인트 : ";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(199, 68);
-            label3.Name = "label3";
-            label3.Size = new Size(17, 20);
-            label3.TabIndex = 10;
-            label3.Text = "0";
+            NickName_Label.AutoSize = true;
+            NickName_Label.Location = new Point(126, 38);
+            NickName_Label.Name = "NickName_Label";
+            NickName_Label.Size = new Size(142, 20);
+            NickName_Label.TabIndex = 8;
+            NickName_Label.Text = "User 님 환영합니다.";
             // 
             // button9
             // 
@@ -151,16 +131,17 @@
             button9.TabIndex = 11;
             button9.Text = "로그아웃";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += Logout_Click;
             // 
-            // button10
+            // Mypage_Button
             // 
-            button10.Location = new Point(551, 85);
-            button10.Name = "button10";
-            button10.Size = new Size(94, 29);
-            button10.TabIndex = 12;
-            button10.Text = "마이페이지";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += Move_MyPage;
+            Mypage_Button.Location = new Point(551, 85);
+            Mypage_Button.Name = "Mypage_Button";
+            Mypage_Button.Size = new Size(94, 29);
+            Mypage_Button.TabIndex = 12;
+            Mypage_Button.Text = "마이페이지";
+            Mypage_Button.UseVisualStyleBackColor = true;
+            Mypage_Button.Click += Move_MyPage;
             // 
             // label4
             // 
@@ -177,11 +158,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label4);
-            Controls.Add(button10);
+            Controls.Add(Mypage_Button);
             Controls.Add(button9);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(NickName_Label);
             Controls.Add(button5);
             Controls.Add(button6);
             Controls.Add(button7);
@@ -207,11 +186,9 @@
         private Button button6;
         private Button button7;
         private Button button8;
-        private Label label1;
-        private Label label2;
-        private Label label3;
+        private Label NickName_Label;
         private Button button9;
-        private Button button10;
+        private Button Mypage_Button;
         private Label label4;
     }
 }

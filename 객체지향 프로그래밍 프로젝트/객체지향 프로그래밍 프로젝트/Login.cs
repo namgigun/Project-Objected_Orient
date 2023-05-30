@@ -32,18 +32,20 @@ namespace 객체지향_프로그래밍_프로젝트
 
             Member member = new Member();
             member.ID = IdBox.Text;
-            member.PWD = PwdBox.Text; 
+            member.PWD = PwdBox.Text;
 
             String Query = String.Format("SELECT * FROM Data.Member");
 
             DataTable table = dbManager.select(Query);
+ 
 
            foreach(DataRow row in table.Rows)
            {
                 if (member.ID == row["ID"].ToString() && member.PWD == row["PWD"].ToString()) {
                     MessageBox.Show("로그인 성공!");
                     success = true;
-                    MainPage mainPage = new MainPage();
+                    member.NickName = row["NickName"].ToString();
+                    MainPage mainPage = new MainPage(member);
                     mainPage.ShowDialog();
                     break;
                 }

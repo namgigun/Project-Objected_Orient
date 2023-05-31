@@ -34,10 +34,10 @@
             IdBox = new TextBox();
             label3 = new Label();
             PwdBox = new TextBox();
-            button1 = new Button();
+            SignUp_Btn = new Button();
             label5 = new Label();
-            NickName_Chk = new Button();
-            Id_Chk = new Button();
+            NickName_Chk_Btn = new Button();
+            Id_Chk_Btn = new Button();
             SuspendLayout();
             // 
             // nicknameBox
@@ -88,15 +88,15 @@
             PwdBox.Size = new Size(237, 27);
             PwdBox.TabIndex = 4;
             // 
-            // button1
+            // SignUp_Btn
             // 
-            button1.Location = new Point(314, 291);
-            button1.Name = "button1";
-            button1.Size = new Size(126, 78);
-            button1.TabIndex = 8;
-            button1.Text = "가입하기";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += SignUp_Button_Click;
+            SignUp_Btn.Location = new Point(314, 291);
+            SignUp_Btn.Name = "SignUp_Btn";
+            SignUp_Btn.Size = new Size(126, 78);
+            SignUp_Btn.TabIndex = 8;
+            SignUp_Btn.Text = "가입하기";
+            SignUp_Btn.UseVisualStyleBackColor = true;
+            SignUp_Btn.Click += SignUp_Button_Click;
             // 
             // label5
             // 
@@ -108,33 +108,35 @@
             label5.TabIndex = 9;
             label5.Text = "회원가입 페이지";
             // 
-            // NickName_Chk
+            // NickName_Chk_Btn
             // 
-            NickName_Chk.Location = new Point(523, 134);
-            NickName_Chk.Name = "NickName_Chk";
-            NickName_Chk.Size = new Size(94, 29);
-            NickName_Chk.TabIndex = 10;
-            NickName_Chk.Text = "중복확인";
-            NickName_Chk.UseVisualStyleBackColor = true;
+            NickName_Chk_Btn.Location = new Point(523, 134);
+            NickName_Chk_Btn.Name = "NickName_Chk_Btn";
+            NickName_Chk_Btn.Size = new Size(94, 29);
+            NickName_Chk_Btn.TabIndex = 10;
+            NickName_Chk_Btn.Text = "중복확인";
+            NickName_Chk_Btn.UseVisualStyleBackColor = true;
+            NickName_Chk_Btn.Click += NickName_Chk_Btn_Click;
             // 
-            // Id_Chk
+            // Id_Chk_Btn
             // 
-            Id_Chk.Location = new Point(523, 184);
-            Id_Chk.Name = "Id_Chk";
-            Id_Chk.Size = new Size(94, 29);
-            Id_Chk.TabIndex = 10;
-            Id_Chk.Text = "중복확인";
-            Id_Chk.UseVisualStyleBackColor = true;
+            Id_Chk_Btn.Location = new Point(523, 184);
+            Id_Chk_Btn.Name = "Id_Chk_Btn";
+            Id_Chk_Btn.Size = new Size(94, 29);
+            Id_Chk_Btn.TabIndex = 10;
+            Id_Chk_Btn.Text = "중복확인";
+            Id_Chk_Btn.UseVisualStyleBackColor = true;
+            Id_Chk_Btn.Click += Id_Chk_Btn_Click;
             // 
             // SignUpPage
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(Id_Chk);
-            Controls.Add(NickName_Chk);
+            Controls.Add(Id_Chk_Btn);
+            Controls.Add(NickName_Chk_Btn);
             Controls.Add(label5);
-            Controls.Add(button1);
+            Controls.Add(SignUp_Btn);
             Controls.Add(label3);
             Controls.Add(PwdBox);
             Controls.Add(label2);
@@ -155,9 +157,9 @@
         private TextBox IdBox;
         private Label label3;
         private TextBox PwdBox;
-        private Button button1;
+        private Button SignUp_Btn;
         private Label label5;
-        private Button NickName_Chk;
-        private Button Id_Chk;
+        private Button NickName_Chk_Btn;
+        private Button Id_Chk_Btn;
     }
 }

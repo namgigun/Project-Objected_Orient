@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Mine;
 using Raccoon;
-using MatchingGame;
 using 이학성_가위바위보;
 using TetrisGame.Forms;
+using MatchingGame;
 
 namespace 객체지향_프로그래밍_프로젝트
 {
@@ -98,8 +98,8 @@ namespace 객체지향_프로그래밍_프로젝트
 
         private void Game4_Start_Btn_Click(object sender, EventArgs e)
         {
-            MatchingForm form = new MatchingForm();
-            form.ShowDialog();
+            MatchingForm matchingForm = new MatchingForm();
+            matchingForm.ShowDialog();
         }
 
         private void Game7_Start_Btn_Click(object sender, EventArgs e)

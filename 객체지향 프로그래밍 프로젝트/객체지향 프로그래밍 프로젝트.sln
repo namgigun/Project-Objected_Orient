@@ -11,9 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSPGame", "Project-Objected
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon", "Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\Raccoon.csproj", "{B99ED0B0-FAD5-400F-BD88-C4C6E1BF3865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingGame", "Project-Objected_Orient_Games\4.matching-game-master\matching-game-master\MatchingGame\MatchingGame\MatchingGame.csproj", "{33E7C299-4ABD-4224-9335-3BC70512A1B3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisGame", "Project-Objected_Orient_Games\7.테트리스\TetrisGame-main\TetrisGame\TetrisGame.csproj", "{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingGame", "Project-Objected_Orient_Games\4.matching-game-master\matching-game-master\MatchingGame\MatchingGame\MatchingGame.csproj", "{33E7C299-4ABD-4224-9335-3BC70512A1B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,14 @@ Global
 		{B99ED0B0-FAD5-400F-BD88-C4C6E1BF3865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B99ED0B0-FAD5-400F-BD88-C4C6E1BF3865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B99ED0B0-FAD5-400F-BD88-C4C6E1BF3865}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -249,8 +249,16 @@
         }
       },
       "MatchingGame/1.0.0": {
+        "dependencies": {
+          "MatchingGame.Logic": "1.0.0"
+        },
         "runtime": {
           "MatchingGame.exe": {}
+        }
+      },
+      "MatchingGame.Logic/1.0.0": {
+        "runtime": {
+          "MatchingGame.Logic.dll": {}
         }
       },
       "Mine/1.0.0": {
@@ -276,14 +284,6 @@
       "RSPGame.Reference/1.0.0.0": {
         "runtime": {
           "RSPGame.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "MatchingGame.Logic/1.0.0.0": {
-        "runtime": {
-          "MatchingGame.Logic.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -512,6 +512,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "MatchingGame.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Mine/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -533,11 +538,6 @@
       "sha512": ""
     },
     "RSPGame.Reference/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MatchingGame.Logic/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

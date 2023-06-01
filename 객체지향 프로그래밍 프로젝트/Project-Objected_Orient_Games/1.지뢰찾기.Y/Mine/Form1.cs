@@ -14,6 +14,7 @@ namespace Mine
     {
         int Map_Length = 10;
         int Mine_Count = 10;
+        public MineManager Manager = new MineManager();
 
         int fdme = 0;
         int FindMine
@@ -28,6 +29,7 @@ namespace Mine
                 if (fdme == Mine_Count && flagcount == 0)
                 {
                     MessageBox.Show("승리!");
+                    Manager.UpdatePoints(20);
                     F_Map.Enabled = false;
                 }
 
@@ -50,6 +52,10 @@ namespace Mine
 
         public Form1()
         {
+            InitializeComponent();
+        }
+
+        public Form1(int highscore) { 
             InitializeComponent();
         }
 

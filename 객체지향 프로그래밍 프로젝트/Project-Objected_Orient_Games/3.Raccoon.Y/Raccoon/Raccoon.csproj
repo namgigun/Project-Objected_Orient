@@ -58,6 +58,7 @@
     <Compile Include="Obstruction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaManager.cs" />
     <Compile Include="Ui.cs" />
     <EmbeddedResource Include="RacconForm.resx">
       <DependentUpon>RacconForm.cs</DependentUpon>

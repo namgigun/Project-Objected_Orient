@@ -8,6 +8,7 @@ namespace MatchingGame
     public partial class MatchingForm : Form
     {
         private Game _game;
+        public MatchingManager matchingManager = new MatchingManager();
 
         public MatchingForm()
         {
@@ -87,6 +88,8 @@ namespace MatchingGame
             var bestScore = GameSettings.Instance.BestScore;
             var currentScore = _game.Turns;
             GameSettings.Instance.UpdateScore(_game.Turns);
+
+            matchingManager.UpdatePoints(100 / _game.Turns);
 
             string text;
             if (bestScore == 0)

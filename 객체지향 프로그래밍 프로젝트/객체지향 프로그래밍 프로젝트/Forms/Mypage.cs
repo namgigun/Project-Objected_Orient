@@ -24,6 +24,7 @@ namespace 객체지향_프로그래밍_프로젝트
             InitializeComponent();
             this.userinfo = userInfo;
         }
+
         //private void Mypage_Load(object sender, EventArgs e)
         //{
         //    LoadTheme();

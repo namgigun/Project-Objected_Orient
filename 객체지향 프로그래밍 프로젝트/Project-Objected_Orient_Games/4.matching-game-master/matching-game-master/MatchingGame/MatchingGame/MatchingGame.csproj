@@ -51,6 +51,7 @@
     <Compile Include="MatchingForm.Designer.cs">
       <DependentUpon>MatchingForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MatchingManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MatchingForm.resx">

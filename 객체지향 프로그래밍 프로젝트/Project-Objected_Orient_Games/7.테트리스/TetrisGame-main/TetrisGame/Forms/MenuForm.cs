@@ -6,6 +6,8 @@ namespace TetrisGame.Forms
 {
     public partial class MenuForm : Form
     {
+        public static TetrisManager tetrisManager = new TetrisManager();
+
         public MenuForm()
         {
             InitializeComponent();
@@ -41,6 +43,11 @@ namespace TetrisGame.Forms
             showForm(new SettinsForm());
             this.Width = 360;
             this.Height = 400;
+        }
+
+        private void MenuForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
         }
     }
 }

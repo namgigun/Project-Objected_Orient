@@ -272,7 +272,7 @@
             // 
             this.Timer_View_Result.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // 이학성_가위바위보
+            // 가위바위보
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -302,9 +302,9 @@
             this.Controls.Add(this.lbCom);
             this.MaximumSize = new System.Drawing.Size(760, 470);
             this.MinimumSize = new System.Drawing.Size(370, 470);
-            this.Name = "이학성_가위바위보";
+            this.Name = "가위바위보";
             this.Text = "Form1";
-            
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.가위바위보_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

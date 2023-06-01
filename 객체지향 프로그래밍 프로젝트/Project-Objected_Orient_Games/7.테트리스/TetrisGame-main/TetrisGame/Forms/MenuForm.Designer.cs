@@ -36,9 +36,10 @@ namespace TetrisGame.Forms
             // 
             // newGameButton
             // 
-            this.newGameButton.Location = new System.Drawing.Point(79, 42);
+            this.newGameButton.Location = new System.Drawing.Point(105, 48);
+            this.newGameButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.newGameButton.Name = "newGameButton";
-            this.newGameButton.Size = new System.Drawing.Size(171, 40);
+            this.newGameButton.Size = new System.Drawing.Size(228, 46);
             this.newGameButton.TabIndex = 0;
             this.newGameButton.Text = "New Game";
             this.newGameButton.UseVisualStyleBackColor = true;
@@ -46,9 +47,10 @@ namespace TetrisGame.Forms
             // 
             // settingsButton
             // 
-            this.settingsButton.Location = new System.Drawing.Point(79, 103);
+            this.settingsButton.Location = new System.Drawing.Point(105, 119);
+            this.settingsButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.settingsButton.Name = "settingsButton";
-            this.settingsButton.Size = new System.Drawing.Size(171, 40);
+            this.settingsButton.Size = new System.Drawing.Size(228, 46);
             this.settingsButton.TabIndex = 1;
             this.settingsButton.Text = "Settings";
             this.settingsButton.UseVisualStyleBackColor = true;
@@ -56,9 +58,10 @@ namespace TetrisGame.Forms
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(79, 165);
+            this.exitButton.Location = new System.Drawing.Point(105, 190);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(171, 40);
+            this.exitButton.Size = new System.Drawing.Size(228, 46);
             this.exitButton.TabIndex = 2;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -66,14 +69,16 @@ namespace TetrisGame.Forms
             // 
             // MenuForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(343, 246);
+            this.ClientSize = new System.Drawing.Size(457, 284);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.settingsButton);
             this.Controls.Add(this.newGameButton);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "MenuForm";
             this.Text = "MenuForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuForm_FormClosed);
             this.ResumeLayout(false);
 
         }

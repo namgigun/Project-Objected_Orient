@@ -16,6 +16,7 @@ namespace 이학성_가위바위보
         int MeScore, ComScore, DrawScore, TotalScore = 0;
         int Me_Gawei, Me_Bawei, Me_Bo = 0;
         bool result_view;
+        public RSPManager rSPManager = new RSPManager();
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -55,13 +56,19 @@ namespace 이학성_가위바위보
             Timer_View_Result.Start();
         }
 
-        
+        private void 가위바위보_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            rSPManager.UpdatePoints(MeScore);
+        }
+
         int Com_Gawei, Com_Bawei, Com_Bo = 0;
+
         public 가위바위보()
         {
             InitializeComponent();
         }
-        /*
+
+
         private void gawei_Click(object sender, EventArgs e)
         {
             pictureBox2.ImageLocation = "Images/gawei.jpg";
@@ -74,11 +81,11 @@ namespace 이학성_가위바위보
                     lbUserResult.Text = "WIN";
                     lbComResult.Text = "LOSE";
                     MeScore++;
-                    lbMeScore.Text = "내가 이긴 횟수 : "+MeScore; 
+                    lbMeScore.Text = "내가 이긴 횟수 : " + MeScore;
                     Me_Gawei++;
-                    lbMeGawei.Text = "가위 낸 횟수 : "+Me_Gawei;
+                    lbMeGawei.Text = "가위 낸 횟수 : " + Me_Gawei;
                     Com_Bo++;
-                    lbComBo.Text = "보 낸 횟수 : "+Com_Bo;
+                    lbComBo.Text = "보 낸 횟수 : " + Com_Bo;
                     break;
                 case RSPMachine.RSPChoice.ROCK:
                     pictureBox1.ImageLocation = "Images/bawei.jpg";
@@ -96,7 +103,7 @@ namespace 이학성_가위바위보
                     lbUserResult.Text = "DRAW";
                     lbComResult.Text = "DRAW";
                     DrawScore++;
-                    lbDrawScore.Text = "서로 비긴 횟수 : "+ DrawScore;
+                    lbDrawScore.Text = "서로 비긴 횟수 : " + DrawScore;
                     Me_Gawei++;
                     lbMeGawei.Text = "가위 낸 횟수 : " + Me_Gawei;
                     Com_Gawei++;
@@ -195,66 +202,71 @@ namespace 이학성_가위바위보
             TotalScore++;
             lbTotalScore.Text = "총 " + TotalScore + " 번의 게임을 진행하였습니다.";
         }
-        */
-        private void gawei_Click(object sender, EventArgs e)
-        {
-            CheckRGP(1);
-        }
 
-        private void bawei_Click(object sender, EventArgs e)
-        {
-            CheckRGP(2);
-        }
 
-        private void bo_Click(object sender, EventArgs e)
-        {
-            CheckRGP(3);
-        }
-        void CheckRGP(int my_cho)
-        {
-            if (my_cho == 1)
-            {
-                pictureBox2.ImageLocation = "Images/gawei.jpg";
-                RSPMachine.RSPChoiceTostring(RSPMachine.RSPChoice.SCISSORS);
-                        pictureBox1.ImageLocation = "Images/bawei.jpg";
-                        lbUserResult.Text = "LOSE";
-                        lbComResult.Text = "WIN";
-                        ComScore++;
-                        lbComScore.Text = "컴퓨터가 이긴 횟수 : " + ComScore;
-                        Me_Gawei++;
-                        lbMeGawei.Text = "가위 낸 횟수 : " + Me_Gawei;
-                        Com_Bawei++;
-                        lbComBawei.Text = "바위 낸 횟수 : " + Com_Bawei;
-            }
-            else if (my_cho == 2)
-            {
-                pictureBox2.ImageLocation = "Images/bawei.jpg";
-                RSPMachine.RSPChoiceTostring(RSPMachine.RSPChoice.ROCK);
-                        pictureBox1.ImageLocation = "Images/bo.jpg";
-                        lbUserResult.Text = "LOSE";
-                        lbComResult.Text = "WIN";
-                        ComScore++;
-                        lbComScore.Text = "컴퓨터가 이긴 횟수 : " + ComScore;
-                        Me_Bawei++;
-                        lbMeBawei.Text = "바위 낸 횟수 : " + Me_Bawei;
-                        Com_Bo++;
-                        lbComBo.Text = "보 낸 횟수 : " + Com_Bo;
+        //private void gawei_Click(object sender, EventArgs e)
+        //{
+        //    CheckRGP(1);
+        //}
+
+        //private void bawei_Click(object sender, EventArgs e)
+        //{
+        //    CheckRGP(2);
+        //}
+
+        //private void bo_Click(object sender, EventArgs e)
+        //{
+        //    CheckRGP(3);
+        //}
+
+        //void CheckRGP(int my_cho)
+        //{
+        //    if (my_cho == 1)
+        //    {
+        //        pictureBox2.ImageLocation = "Images/gawei.jpg";
+        //        RSPMachine.RSPChoiceTostring(RSPMachine.RSPChoice.SCISSORS);
+        //                pictureBox1.ImageLocation = "Images/bawei.jpg";
+        //                lbUserResult.Text = "LOSE";
+        //                lbComResult.Text = "WIN";
+        //                ComScore++;
+        //                lbComScore.Text = "컴퓨터가 이긴 횟수 : " + ComScore;
+        //                Me_Gawei++;
+        //                lbMeGawei.Text = "가위 낸 횟수 : " + Me_Gawei;
+        //                Com_Bawei++;
+        //                lbComBawei.Text = "바위 낸 횟수 : " + Com_Bawei;
+        //    }
+
+        //    else if (my_cho == 2)
+        //    {
+        //        pictureBox2.ImageLocation = "Images/bawei.jpg";
+        //        RSPMachine.RSPChoiceTostring(RSPMachine.RSPChoice.ROCK);
+        //                pictureBox1.ImageLocation = "Images/bo.jpg";
+        //                lbUserResult.Text = "LOSE";
+        //                lbComResult.Text = "WIN";
+        //                ComScore++;
+        //                lbComScore.Text = "컴퓨터가 이긴 횟수 : " + ComScore;
+        //                Me_Bawei++;
+        //                lbMeBawei.Text = "바위 낸 횟수 : " + Me_Bawei;
+        //                Com_Bo++;
+        //                lbComBo.Text = "보 낸 횟수 : " + Com_Bo;
                 
-            }
-            else if (my_cho == 3)
-            {
-                        pictureBox1.ImageLocation = "Images/gawei.jpg";
-                        lbUserResult.Text = "LOSE";
-                        lbComResult.Text = "WIN";
-                        ComScore++;
-                        lbComScore.Text = "컴퓨터가 이긴 횟수 : " + ComScore;
-                        Me_Bo++;
-                        lbMeBo.Text = "보 낸 횟수 : " + Me_Bo;
-                        Com_Gawei++;
-                        lbComGawei.Text = "가위 낸 횟수 : " + Com_Gawei;
-            }
-            TotalScore++;
-            lbTotalScore.Text = "총 " + TotalScore + " 번의 게임을 진행하였습니다.";
-        }
+        //    }
+
+        //    else if (my_cho == 3)
+        //    {
+        //                pictureBox1.ImageLocation = "Images/gawei.jpg";
+        //                lbUserResult.Text = "LOSE";
+        //                lbComResult.Text = "WIN";
+        //                ComScore++;
+        //                lbComScore.Text = "컴퓨터가 이긴 횟수 : " + ComScore;
+        //                Me_Bo++;
+        //                lbMeBo.Text = "보 낸 횟수 : " + Me_Bo;
+        //                Com_Gawei++;
+        //                lbComGawei.Text = "가위 낸 횟수 : " + Com_Gawei;
+        //    }
+
+        //    TotalScore++;
+        //    lbTotalScore.Text = "총 " + TotalScore + " 번의 게임을 진행하였습니다.";
+        //}
     }
 }

@@ -20,9 +20,9 @@ namespace TetrisGame.Forms
         private bool gameOver;
         private Tetrimino currentShape;
         GameSettings gameSettings = new GameSettings();
+
         public GameForm()
         {
-
             InitializeComponent();
             SetContainerLocation();
             menu_panel.Hide();
@@ -110,11 +110,14 @@ namespace TetrisGame.Forms
             gameOver = false;
             timer.Start();
         }
+
         private void GameOver()
         {
             gameOver = true;
+            
             MessageBox.Show("Game Over");
         }
+
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);

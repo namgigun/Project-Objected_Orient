@@ -14,8 +14,11 @@ namespace 객체지향_프로그래밍_프로젝트
 
     public partial class Login : Form
     {
-
         DBManager dbManager = new DBManager();
+
+        public Boolean success = false;
+        public Member member = new Member();
+        public UserInfo userInfo = new UserInfo();
 
         public Login()
         {
@@ -52,8 +55,7 @@ namespace 객체지향_프로그래밍_프로젝트
 
         private void Login_Click(object sender, EventArgs e)
         {
-            Boolean success = false;
-
+            success = false;
             Member member = new Member();
             member.ID = IdBox.Text;
             member.PWD = PwdBox.Text;
@@ -67,19 +69,58 @@ namespace 객체지향_프로그래밍_프로젝트
             {
                 if (member.ID == row["ID"].ToString() && member.PWD == row["PWD"].ToString())
                 {
-                    MessageBox.Show("로그인 성공!");
                     success = true;
                     member.NickName = row["NickName"].ToString();
-                    MainPage mainPage = new MainPage(member);
-                    mainPage.ShowDialog();
+
+                    Query = String.Format("SELECT * FROM Data.userInfo WHERE NickName = '{0}'", member.NickName);
+                    table = dbManager.select(Query);
+
+                    if (table == null)
+                    {
+                        MessageBox.Show("테이블 비었음");
+                    }
+
+                    else
+                    {
+                        DataRow Row = table.Rows[0];
+
+                        userInfo.NickName = Row["NickName"].ToString();
+
+                        userInfo.Point = int.Parse(Row["Point"].ToString());
+
+                        userInfo.HighScores = new int[8];
+
+                        userInfo.HighScores[0] = int.Parse(Row["HighScore_On_1"].ToString());
+                        userInfo.HighScores[1] = int.Parse(Row["HighScore_On_2"].ToString());
+                        userInfo.HighScores[2] = int.Parse(Row["HighScore_On_3"].ToString());
+                        userInfo.HighScores[3] = int.Parse(Row["HighScore_On_4"].ToString());
+                        userInfo.HighScores[4] = int.Parse(Row["HighScore_On_5"].ToString());
+                        userInfo.HighScores[5] = int.Parse(Row["HighScore_On_6"].ToString());
+                        userInfo.HighScores[6] = int.Parse(Row["HighScore_On_7"].ToString());
+                        userInfo.HighScores[7] = int.Parse(Row["HighScore_On_8"].ToString());
+                    }
                     break;
                 }
             }
 
-            if (!success)
+            if (success)
+            {
+                MessageBox.Show("로그인 성공!");
+
+                // MainForm으로 돌아갑니다.
+                MainForm mainForm = Application.OpenForms.OfType<MainForm>().FirstOrDefault();
+                if (mainForm != null)
+                {
+                    mainForm.ReturnToMainForm(member,userInfo);
+                }
+
+                this.Close(); // LoginForm을 닫습니다.
+            }
+            else
             {
                 MessageBox.Show("로그인 실패!");
             }
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

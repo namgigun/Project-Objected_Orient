@@ -20,6 +20,7 @@ namespace Raccoon
         Enemy enemy;
         Timer time;
         bool stop;
+        public RaManager raManager = new RaManager();
 
         private void Time()
         {
@@ -101,6 +102,11 @@ namespace Raccoon
                 character.State = 0;
             if (character.State == 4 && e.KeyCode == Keys.Down)
                 character.State = 0;                        
+        }
+
+        private void RacconForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            raManager.UpdatePoints((obstruction.score + enemy.score) / 100);
         }
     }
 }

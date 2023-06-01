@@ -34,8 +34,6 @@
             Game4_Start_Btn = new Button();
             Game7_Start_Btn = new Button();
             NickName_Label = new Label();
-            button9 = new Button();
-            Mypage_Button = new Button();
             label4 = new Label();
             SuspendLayout();
             // 
@@ -71,7 +69,7 @@
             // 
             // Game4_Start_Btn
             // 
-            Game4_Start_Btn.Location = new Point(387, 304);
+            Game4_Start_Btn.Location = new Point(321, 302);
             Game4_Start_Btn.Name = "Game4_Start_Btn";
             Game4_Start_Btn.Size = new Size(113, 94);
             Game4_Start_Btn.TabIndex = 3;
@@ -81,7 +79,7 @@
             // 
             // Game7_Start_Btn
             // 
-            Game7_Start_Btn.Location = new Point(240, 304);
+            Game7_Start_Btn.Location = new Point(187, 302);
             Game7_Start_Btn.Name = "Game7_Start_Btn";
             Game7_Start_Btn.Size = new Size(113, 94);
             Game7_Start_Btn.TabIndex = 6;
@@ -98,26 +96,6 @@
             NickName_Label.TabIndex = 8;
             NickName_Label.Text = "User 님 환영합니다.";
             // 
-            // button9
-            // 
-            button9.Location = new Point(551, 38);
-            button9.Name = "button9";
-            button9.Size = new Size(94, 29);
-            button9.TabIndex = 11;
-            button9.Text = "로그아웃";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += Logout_Click;
-            // 
-            // Mypage_Button
-            // 
-            Mypage_Button.Location = new Point(551, 85);
-            Mypage_Button.Name = "Mypage_Button";
-            Mypage_Button.Size = new Size(94, 29);
-            Mypage_Button.TabIndex = 12;
-            Mypage_Button.Text = "마이페이지";
-            Mypage_Button.UseVisualStyleBackColor = true;
-            Mypage_Button.Click += Move_MyPage;
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -133,8 +111,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label4);
-            Controls.Add(Mypage_Button);
-            Controls.Add(button9);
             Controls.Add(NickName_Label);
             Controls.Add(Game7_Start_Btn);
             Controls.Add(Game4_Start_Btn);
@@ -156,8 +132,6 @@
         private Button Game4_Start_Btn;
         private Button Game7_Start_Btn;
         private Label NickName_Label;
-        private Button button9;
-        private Button Mypage_Button;
         private Label label4;
     }
 }

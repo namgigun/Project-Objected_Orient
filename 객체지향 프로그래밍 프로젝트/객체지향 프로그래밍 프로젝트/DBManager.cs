@@ -57,5 +57,9 @@ namespace 객체지향_프로그래밍_프로젝트
                 return dataTable;
             }
         }
+
+        public void update(String Query) { // 업데이트
+            
+        }
     }
 }

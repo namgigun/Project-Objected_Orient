@@ -53,3 +53,6 @@ C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 
 C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\TetrisGame.pdb
 C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\TetrisGame.exe.config
 C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\MatchingGame.Logic.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.Forms.Logout.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.MainForm.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.Properties.Resources.resources

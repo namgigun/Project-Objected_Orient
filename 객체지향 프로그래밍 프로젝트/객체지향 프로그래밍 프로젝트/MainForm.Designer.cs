@@ -39,9 +39,13 @@
             btnCloseChildForm = new Button();
             lblTitle = new Label();
             panelDesktopPane = new Panel();
+            label2 = new Label();
+            pictureBox1 = new PictureBox();
             panelLogo.SuspendLayout();
             panelMenu.SuspendLayout();
             panelTitleBar.SuspendLayout();
+            panelDesktopPane.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // LogoutButton
@@ -139,11 +143,11 @@
             label1.AutoSize = true;
             label1.Font = new Font("야놀자 야체 B", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.LightGray;
-            label1.Location = new Point(63, 27);
+            label1.Location = new Point(25, 28);
             label1.Name = "label1";
-            label1.Size = new Size(41, 20);
+            label1.Size = new Size(121, 20);
             label1.TabIndex = 0;
-            label1.Text = "Muu";
+            label1.Text = "ＧａｍｅＭｉｘ";
             // 
             // panelMenu
             // 
@@ -199,11 +203,32 @@
             // 
             // panelDesktopPane
             // 
+            panelDesktopPane.Controls.Add(label2);
+            panelDesktopPane.Controls.Add(pictureBox1);
             panelDesktopPane.Dock = DockStyle.Fill;
             panelDesktopPane.Location = new Point(170, 70);
             panelDesktopPane.Name = "panelDesktopPane";
             panelDesktopPane.Size = new Size(812, 533);
             panelDesktopPane.TabIndex = 16;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("야놀자 야체 B", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(275, 284);
+            label2.Name = "label2";
+            label2.Size = new Size(279, 30);
+            label2.TabIndex = 1;
+            label2.Text = "Ｌｅｔ＇ｓ　ＰＬＡＹ！";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.free_icon_laptop_4832718__1_;
+            pictureBox1.Location = new Point(344, 100);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(233, 181);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
@@ -220,6 +245,9 @@
             panelMenu.ResumeLayout(false);
             panelTitleBar.ResumeLayout(false);
             panelTitleBar.PerformLayout();
+            panelDesktopPane.ResumeLayout(false);
+            panelDesktopPane.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -236,5 +264,7 @@
         private Label label1;
         private Panel panelDesktopPane;
         private Button btnCloseChildForm;
+        private PictureBox pictureBox1;
+        private Label label2;
     }
 }

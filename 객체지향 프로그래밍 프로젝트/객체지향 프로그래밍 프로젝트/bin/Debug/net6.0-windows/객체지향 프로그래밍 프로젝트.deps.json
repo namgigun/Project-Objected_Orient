@@ -9,6 +9,7 @@
       "객체지향 프로그래밍 프로젝트/1.0.0": {
         "dependencies": {
           "MatchingGame": "1.0.0",
+          "MatchingGame.Logic": "1.0.0",
           "Mine": "1.0.0",
           "MySql.Data": "8.0.33",
           "RSPGame": "1.0.0",

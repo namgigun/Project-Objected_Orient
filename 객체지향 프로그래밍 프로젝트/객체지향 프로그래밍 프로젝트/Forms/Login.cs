@@ -15,6 +15,7 @@ namespace 객체지향_프로그래밍_프로젝트
     public partial class Login : Form
     {
         DBManager dbManager = new DBManager();
+        private Form activeForm;
 
         public Boolean success = false;
         public Member member = new Member();
@@ -36,7 +37,7 @@ namespace 객체지향_프로그래밍_프로젝트
             LoadTheme();
         }
 
-            private void LoadTheme()
+        private void LoadTheme()
         {
             foreach (Control btns in this.Controls)
             {
@@ -123,6 +124,7 @@ namespace 객체지향_프로그래밍_프로젝트
 
         }
 
+
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -152,6 +154,11 @@ namespace 객체지향_프로그래밍_프로젝트
 
         private void button5_Click(object sender, EventArgs e)
         {
+        }
+
+        private void Login_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

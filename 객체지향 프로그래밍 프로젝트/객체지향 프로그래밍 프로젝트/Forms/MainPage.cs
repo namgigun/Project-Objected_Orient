@@ -36,8 +36,25 @@ namespace 객체지향_프로그래밍_프로젝트
             this.member = member;
         }
 
+        private void LoadTheme()
+        {
+            foreach (Control btns in this.Controls)
+            {
+                if (btns.GetType() == typeof(Button))
+                {
+                    Button btn = (Button)btns;
+                    btn.BackColor = ThemeColor.PrimaryColor;
+                    btn.ForeColor = Color.White;
+                    btn.FlatAppearance.BorderColor = ThemeColor.SecondaryColor;
+                }
+            }
+            label4.ForeColor = ThemeColor.SecondaryColor;
+            NickName_Label.ForeColor = ThemeColor.PrimaryColor;
+        }
+
         private void MainPage_Load(object sender, EventArgs e)
         {
+            LoadTheme();
             //NickName_Label.Text = String.Format("{0} 님 환영합니다.", member.NickName);
             //String Query = String.Format("SELECT * FROM Data.userInfo WHERE NickName = '{0}'", member.NickName);
             //DataTable table = dbManager.select(Query);
@@ -101,7 +118,7 @@ namespace 객체지향_프로그래밍_프로젝트
 
         private void Game4_Start_Btn_Click(object sender, EventArgs e)
         {
-            MainForm form = new MainForm();
+            MatchingForm form = new MatchingForm();
             form.ShowDialog();
         }
 

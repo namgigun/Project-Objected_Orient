@@ -27,7 +27,7 @@ namespace 객체지향_프로그래밍_프로젝트
             // 성공하면 폼 실행  
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new MainForm());
         }
     }
 }

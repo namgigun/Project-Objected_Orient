@@ -8,12 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Galaga_assign;
-using MatchingGame;
 using Mine;
 using Raccoon;
-using Snake;
-using FlyingGame;
+using MatchingGame;
 using 이학성_가위바위보;
 using TetrisGame.Forms;
 
@@ -38,34 +35,34 @@ namespace 객체지향_프로그래밍_프로젝트
 
         private void MainPage_Load(object sender, EventArgs e)
         {
-            //NickName_Label.Text = String.Format("{0} 님 환영합니다.", member.NickName);
-            //String Query = String.Format("SELECT * FROM Data.userInfo WHERE NickName = '{0}'", member.NickName);
-            //DataTable table = dbManager.select(Query);
+            NickName_Label.Text = String.Format("{0} 님 환영합니다.", member.NickName);
+            String Query = String.Format("SELECT * FROM Data.userInfo WHERE NickName = '{0}'", member.NickName);
+            DataTable table = dbManager.select(Query);
 
-            //if (table == null)
-            //{
-            //    MessageBox.Show("테이블 비었음");
-            //}
+            if (table == null)
+            {
+                MessageBox.Show("테이블 비었음");
+            }
 
-            //else
-            //{
-            //    DataRow Row = table.Rows[0];
+            else
+            {
+                DataRow Row = table.Rows[0];
 
-            //    userInfo.NickName = Row["NickName"].ToString();
+                userInfo.NickName = Row["NickName"].ToString();
 
-            //    userInfo.Point = int.Parse(Row["Point"].ToString());
+                userInfo.Point = int.Parse(Row["Point"].ToString());
 
-            //    userInfo.HighScores = new int[8];
+                userInfo.HighScores = new int[8];
 
-            //    userInfo.HighScores[0] = int.Parse(Row["HighScore_On_1"].ToString());
-            //    userInfo.HighScores[1] = int.Parse(Row["HighScore_On_2"].ToString());
-            //    userInfo.HighScores[2] = int.Parse(Row["HighScore_On_3"].ToString());
-            //    userInfo.HighScores[3] = int.Parse(Row["HighScore_On_4"].ToString());
-            //    userInfo.HighScores[4] = int.Parse(Row["HighScore_On_5"].ToString());
-            //    userInfo.HighScores[5] = int.Parse(Row["HighScore_On_6"].ToString());
-            //    userInfo.HighScores[6] = int.Parse(Row["HighScore_On_7"].ToString());
-            //    userInfo.HighScores[7] = int.Parse(Row["HighScore_On_8"].ToString());
-            //}
+                userInfo.HighScores[0] = int.Parse(Row["HighScore_On_1"].ToString());
+                userInfo.HighScores[1] = int.Parse(Row["HighScore_On_2"].ToString());
+                userInfo.HighScores[2] = int.Parse(Row["HighScore_On_3"].ToString());
+                userInfo.HighScores[3] = int.Parse(Row["HighScore_On_4"].ToString());
+                userInfo.HighScores[4] = int.Parse(Row["HighScore_On_5"].ToString());
+                userInfo.HighScores[5] = int.Parse(Row["HighScore_On_6"].ToString());
+                userInfo.HighScores[6] = int.Parse(Row["HighScore_On_7"].ToString());
+                userInfo.HighScores[7] = int.Parse(Row["HighScore_On_8"].ToString());
+            }
 
         }
 
@@ -101,32 +98,14 @@ namespace 객체지향_프로그래밍_프로젝트
 
         private void Game4_Start_Btn_Click(object sender, EventArgs e)
         {
-            MainForm form = new MainForm();
+            MatchingForm form = new MatchingForm();
             form.ShowDialog();
-        }
-
-        private void Game5_Start_Btn_Click(object sender, EventArgs e)
-        {
-            MainConsole console = new MainConsole();
-            console.ShowDialog();
-        }
-
-        private void Game6_Start_Btn_Click(object sender, EventArgs e)
-        {
-            SnakeForm snakeForm = new SnakeForm(); //빌드오류
-            snakeForm.ShowDialog();
         }
 
         private void Game7_Start_Btn_Click(object sender, EventArgs e)
         {
             MenuForm menuForm = new MenuForm(); //error
             menuForm.ShowDialog();
-        }
-
-        private void Game8_Start_Btn_Click(object sender, EventArgs e)
-        {
-            GalagaForm galagaForm = new GalagaForm();
-            galagaForm.ShowDialog();
         }
     }
 }

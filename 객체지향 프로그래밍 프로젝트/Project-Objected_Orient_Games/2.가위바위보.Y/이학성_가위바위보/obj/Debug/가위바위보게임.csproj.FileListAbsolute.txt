@@ -1,0 +1,12 @@
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\obj\Debug\가위바위보게임.csproj.AssemblyReference.cache
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\obj\Debug\가위바위보게임.csproj.SuggestedBindingRedirects.cache
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\obj\Debug\이학성_가위바위보.exe
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\obj\Debug\이학성_가위바위보.pdb
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\bin\Debug\이학성_가위바위보.exe.config
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\bin\Debug\이학성_가위바위보.exe
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\bin\Debug\이학성_가위바위보.pdb
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\obj\Debug\이학성_가위바위보.가위바위보.resources
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\obj\Debug\이학성_가위바위보.Properties.Resources.resources
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\obj\Debug\가위바위보게임.csproj.GenerateResource.cache
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\obj\Debug\가위바위보게임.csproj.CoreCompileInputs.cache
+C:\Users\박민지\Desktop\2.가위바위보.Y\이학성_가위바위보\obj\Debug\가위바위보게임.csproj.CopyComplete

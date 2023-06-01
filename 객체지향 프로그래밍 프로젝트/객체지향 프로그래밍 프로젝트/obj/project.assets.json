@@ -513,43 +513,13 @@
           }
         }
       },
-      "FlyingGame/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/FlyingGame.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FlyingGame.dll": {}
-        }
-      },
-      "Galaga_assign/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Galaga_assign.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Galaga_assign.dll": {}
-        }
-      },
       "MatchingGame/1.0.0": {
         "type": "project",
-        "dependencies": {
-          "MatchingGame.Logic": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/MatchingGame.dll": {}
         },
         "runtime": {
           "bin/placeholder/MatchingGame.dll": {}
-        }
-      },
-      "MatchingGame.Logic/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/MatchingGame.Logic.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MatchingGame.Logic.dll": {}
         }
       },
       "Mine/1.0.0": {
@@ -577,15 +547,6 @@
         },
         "runtime": {
           "bin/placeholder/RSPGame.dll": {}
-        }
-      },
-      "Snake/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Snake.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Snake.dll": {}
         }
       },
       "TetrisGame/1.0.0": {
@@ -1787,63 +1748,39 @@
         "version.txt"
       ]
     },
-    "FlyingGame/1.0.0": {
-      "type": "project",
-      "path": "../../../../Project-Objected_Orient_Games/5.FlyingGame-master/FlyingGame-master/FlyingGame/FlyingGame.csproj",
-      "msbuildProject": "../../../../Project-Objected_Orient_Games/5.FlyingGame-master/FlyingGame-master/FlyingGame/FlyingGame.csproj"
-    },
-    "Galaga_assign/1.0.0": {
-      "type": "project",
-      "path": "../../../../Project-Objected_Orient_Games/8.우주총미완성/ProjectGalaga-main/Galaga_assign/Galaga_assign.csproj",
-      "msbuildProject": "../../../../Project-Objected_Orient_Games/8.우주총미완성/ProjectGalaga-main/Galaga_assign/Galaga_assign.csproj"
-    },
     "MatchingGame/1.0.0": {
       "type": "project",
-      "path": "../../../../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame/MatchingGame.csproj",
-      "msbuildProject": "../../../../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame/MatchingGame.csproj"
-    },
-    "MatchingGame.Logic/1.0.0": {
-      "type": "project",
-      "path": "../../../../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame.Logic/MatchingGame.Logic.csproj",
-      "msbuildProject": "../../../../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame.Logic/MatchingGame.Logic.csproj"
+      "path": "../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame/MatchingGame.csproj",
+      "msbuildProject": "../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame/MatchingGame.csproj"
     },
     "Mine/1.0.0": {
       "type": "project",
-      "path": "../../../../Project-Objected_Orient_Games/1.지뢰찾기.Y/Mine/Mine.csproj",
-      "msbuildProject": "../../../../Project-Objected_Orient_Games/1.지뢰찾기.Y/Mine/Mine.csproj"
+      "path": "../Project-Objected_Orient_Games/1.지뢰찾기.Y/Mine/Mine.csproj",
+      "msbuildProject": "../Project-Objected_Orient_Games/1.지뢰찾기.Y/Mine/Mine.csproj"
     },
     "Raccoon/1.0.0": {
       "type": "project",
-      "path": "../../../../Project-Objected_Orient_Games/3.Raccoon.Y/Raccoon/Raccoon.csproj",
-      "msbuildProject": "../../../../Project-Objected_Orient_Games/3.Raccoon.Y/Raccoon/Raccoon.csproj"
+      "path": "../Project-Objected_Orient_Games/3.Raccoon.Y/Raccoon/Raccoon.csproj",
+      "msbuildProject": "../Project-Objected_Orient_Games/3.Raccoon.Y/Raccoon/Raccoon.csproj"
     },
     "RSPGame/1.0.0": {
       "type": "project",
-      "path": "../../../../Project-Objected_Orient_Games/2.가위바위보.Y/이학성_가위바위보/RSPGame.csproj",
-      "msbuildProject": "../../../../Project-Objected_Orient_Games/2.가위바위보.Y/이학성_가위바위보/RSPGame.csproj"
-    },
-    "Snake/1.0.0": {
-      "type": "project",
-      "path": "../../../../Project-Objected_Orient_Games/6.Snake-WinForm-main/Snake-WinForm-main/Snake/Snake.csproj",
-      "msbuildProject": "../../../../Project-Objected_Orient_Games/6.Snake-WinForm-main/Snake-WinForm-main/Snake/Snake.csproj"
+      "path": "../Project-Objected_Orient_Games/2.가위바위보.Y/이학성_가위바위보/RSPGame.csproj",
+      "msbuildProject": "../Project-Objected_Orient_Games/2.가위바위보.Y/이학성_가위바위보/RSPGame.csproj"
     },
     "TetrisGame/1.0.0": {
       "type": "project",
-      "path": "../../../../Project-Objected_Orient_Games/7.테트리스/TetrisGame-main/TetrisGame/TetrisGame.csproj",
-      "msbuildProject": "../../../../Project-Objected_Orient_Games/7.테트리스/TetrisGame-main/TetrisGame/TetrisGame.csproj"
+      "path": "../Project-Objected_Orient_Games/7.테트리스/TetrisGame-main/TetrisGame/TetrisGame.csproj",
+      "msbuildProject": "../Project-Objected_Orient_Games/7.테트리스/TetrisGame-main/TetrisGame/TetrisGame.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "FlyingGame >= 1.0.0",
-      "Galaga_assign >= 1.0.0",
       "MatchingGame >= 1.0.0",
-      "MatchingGame.Logic >= 1.0.0",
       "Mine >= 1.0.0",
       "MySql.Data >= 8.0.33",
       "RSPGame >= 1.0.0",
       "Raccoon >= 1.0.0",
-      "Snake >= 1.0.0",
       "TetrisGame >= 1.0.0"
     ]
   },
@@ -1874,32 +1811,20 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj"
+            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj": {
+              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj"
             },
-            "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj"
+            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj": {
+              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj"
             },
-            "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj"
+            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj": {
+              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj"
             },
-            "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj"
+            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj": {
+              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj"
             },
-            "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj"
-            },
-            "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\5.FlyingGame-master\\FlyingGame-master\\FlyingGame\\FlyingGame.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\5.FlyingGame-master\\FlyingGame-master\\FlyingGame\\FlyingGame.csproj"
-            },
-            "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\6.Snake-WinForm-main\\Snake-WinForm-main\\Snake\\Snake.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\6.Snake-WinForm-main\\Snake-WinForm-main\\Snake\\Snake.csproj"
-            },
-            "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj"
-            },
-            "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\8.우주총미완성\\ProjectGalaga-main\\Galaga_assign\\Galaga_assign.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\8.우주총미완성\\ProjectGalaga-main\\Galaga_assign\\Galaga_assign.csproj"
+            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj": {
+              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj"
             }
           }
         }

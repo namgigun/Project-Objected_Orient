@@ -1,0 +1,40 @@
+G:\VSprojects\FlyingGame\FlyingGame\bin\Debug\FlyingGame.exe.config
+G:\VSprojects\FlyingGame\FlyingGame\bin\Debug\FlyingGame.exe
+G:\VSprojects\FlyingGame\FlyingGame\bin\Debug\FlyingGame.pdb
+G:\VSprojects\FlyingGame\FlyingGame\obj\Debug\FlyingGame.MainConsole.resources
+G:\VSprojects\FlyingGame\FlyingGame\obj\Debug\FlyingGame.Properties.Resources.resources
+G:\VSprojects\FlyingGame\FlyingGame\obj\Debug\FlyingGame.csproj.GenerateResource.Cache
+G:\VSprojects\FlyingGame\FlyingGame\obj\Debug\FlyingGame.exe
+G:\VSprojects\FlyingGame\FlyingGame\obj\Debug\FlyingGame.pdb
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\bin\Debug\FlyingGame.exe.config
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\bin\Debug\FlyingGame.exe
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\bin\Debug\FlyingGame.pdb
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.AssemblyReference.cache
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.MainConsole.resources
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.Properties.Resources.resources
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.GenerateResource.cache
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.CoreCompileInputs.cache
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.exe
+C:\Users\박민지\Downloads\FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.pdb
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\bin\Debug\FlyingGame.exe.config
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\bin\Debug\FlyingGame.exe
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\bin\Debug\FlyingGame.pdb
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.AssemblyReference.cache
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.MainConsole.resources
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.Properties.Resources.resources
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.GenerateResource.cache
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.CoreCompileInputs.cache
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.exe
+C:\Users\namgi\Desktop\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\bin\Debug\FlyingGame.exe.config
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\bin\Debug\FlyingGame.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.AssemblyReference.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.MainConsole.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.Properties.Resources.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.GenerateResource.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.csproj.CoreCompileInputs.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\obj\Debug\FlyingGame.pdb

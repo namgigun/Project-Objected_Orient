@@ -5,23 +5,15 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "객체지향 프로그래밍 프로젝트", "객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트.csproj", "{532E0ED6-EFED-4A12-A3B1-33C9A0D6B64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mine", "..\..\..\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\Mine.csproj", "{5715FABA-E7BA-4A21-A806-E20165434695}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mine", "Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\Mine.csproj", "{5715FABA-E7BA-4A21-A806-E20165434695}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon", "..\..\..\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\Raccoon.csproj", "{B99ED0B0-FAD5-400F-BD88-C4C6E1BF3865}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSPGame", "Project-Objected_Orient_Games\2.가위바위보.Y\이학성_가위바위보\RSPGame.csproj", "{F7B8F643-995C-4F3D-AA78-9D70210E66CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingGame", "..\..\..\Project-Objected_Orient_Games\4.matching-game-master\matching-game-master\MatchingGame\MatchingGame\MatchingGame.csproj", "{33E7C299-4ABD-4224-9335-3BC70512A1B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon", "Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\Raccoon.csproj", "{B99ED0B0-FAD5-400F-BD88-C4C6E1BF3865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingGame.Logic", "..\..\..\Project-Objected_Orient_Games\4.matching-game-master\matching-game-master\MatchingGame\MatchingGame.Logic\MatchingGame.Logic.csproj", "{36B3E6E2-A9AE-4924-89AE-7F0120CE08BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingGame", "Project-Objected_Orient_Games\4.matching-game-master\matching-game-master\MatchingGame\MatchingGame\MatchingGame.csproj", "{33E7C299-4ABD-4224-9335-3BC70512A1B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "..\..\..\Project-Objected_Orient_Games\6.Snake-WinForm-main\Snake-WinForm-main\Snake\Snake.csproj", "{90203FAC-61A3-4970-B530-635CFFE37C62}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisGame", "..\..\..\Project-Objected_Orient_Games\7.테트리스\TetrisGame-main\TetrisGame\TetrisGame.csproj", "{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaga_assign", "..\..\..\Project-Objected_Orient_Games\8.우주총미완성\ProjectGalaga-main\Galaga_assign\Galaga_assign.csproj", "{8597F88D-41F5-4E2C-93EE-39502B508329}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSPGame", "..\..\..\Project-Objected_Orient_Games\2.가위바위보.Y\이학성_가위바위보\RSPGame.csproj", "{F7B8F643-995C-4F3D-AA78-9D70210E66CA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyingGame", "..\..\..\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\FlyingGame.csproj", "{82078699-04AB-4479-9C67-67B7B5491E56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisGame", "Project-Objected_Orient_Games\7.테트리스\TetrisGame-main\TetrisGame\TetrisGame.csproj", "{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +29,10 @@ Global
 		{5715FABA-E7BA-4A21-A806-E20165434695}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5715FABA-E7BA-4A21-A806-E20165434695}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5715FABA-E7BA-4A21-A806-E20165434695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B99ED0B0-FAD5-400F-BD88-C4C6E1BF3865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B99ED0B0-FAD5-400F-BD88-C4C6E1BF3865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B99ED0B0-FAD5-400F-BD88-C4C6E1BF3865}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,30 +41,10 @@ Global
 		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33E7C299-4ABD-4224-9335-3BC70512A1B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{36B3E6E2-A9AE-4924-89AE-7F0120CE08BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36B3E6E2-A9AE-4924-89AE-7F0120CE08BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36B3E6E2-A9AE-4924-89AE-7F0120CE08BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36B3E6E2-A9AE-4924-89AE-7F0120CE08BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90203FAC-61A3-4970-B530-635CFFE37C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90203FAC-61A3-4970-B530-635CFFE37C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90203FAC-61A3-4970-B530-635CFFE37C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90203FAC-61A3-4970-B530-635CFFE37C62}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0924AB49-1A2C-4B64-9C24-E77C2D4192AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8597F88D-41F5-4E2C-93EE-39502B508329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8597F88D-41F5-4E2C-93EE-39502B508329}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8597F88D-41F5-4E2C-93EE-39502B508329}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8597F88D-41F5-4E2C-93EE-39502B508329}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82078699-04AB-4479-9C67-67B7B5491E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82078699-04AB-4479-9C67-67B7B5491E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82078699-04AB-4479-9C67-67B7B5491E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82078699-04AB-4479-9C67-67B7B5491E56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

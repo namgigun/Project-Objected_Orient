@@ -8,15 +8,11 @@
     ".NETCoreApp,Version=v6.0": {
       "객체지향 프로그래밍 프로젝트/1.0.0": {
         "dependencies": {
-          "FlyingGame": "1.0.0",
-          "Galaga_assign": "1.0.0",
           "MatchingGame": "1.0.0",
-          "MatchingGame.Logic": "1.0.0",
           "Mine": "1.0.0",
           "MySql.Data": "8.0.33",
           "RSPGame": "1.0.0",
           "Raccoon": "1.0.0",
-          "Snake": "1.0.0",
           "TetrisGame": "1.0.0"
         },
         "runtime": {
@@ -252,27 +248,9 @@
           "System.Drawing.Common": "4.7.0"
         }
       },
-      "FlyingGame/1.0.0": {
-        "runtime": {
-          "FlyingGame.exe": {}
-        }
-      },
-      "Galaga_assign/1.0.0": {
-        "runtime": {
-          "Galaga_assign.exe": {}
-        }
-      },
       "MatchingGame/1.0.0": {
-        "dependencies": {
-          "MatchingGame.Logic": "1.0.0"
-        },
         "runtime": {
           "MatchingGame.exe": {}
-        }
-      },
-      "MatchingGame.Logic/1.0.0": {
-        "runtime": {
-          "MatchingGame.Logic.dll": {}
         }
       },
       "Mine/1.0.0": {
@@ -290,11 +268,6 @@
           "이학성_가위바위보.exe": {}
         }
       },
-      "Snake/1.0.0": {
-        "runtime": {
-          "Snake.exe": {}
-        }
-      },
       "TetrisGame/1.0.0": {
         "runtime": {
           "TetrisGame.exe": {}
@@ -303,6 +276,14 @@
       "RSPGame.Reference/1.0.0.0": {
         "runtime": {
           "RSPGame.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MatchingGame.Logic/1.0.0.0": {
+        "runtime": {
+          "MatchingGame.Logic.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -526,22 +507,7 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
-    "FlyingGame/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Galaga_assign/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "MatchingGame/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MatchingGame.Logic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -561,17 +527,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Snake/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "TetrisGame/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "RSPGame.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MatchingGame.Logic/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -16,6 +16,7 @@ namespace 객체지향_프로그래밍_프로젝트
     {
 
         DBManager dbManager = new DBManager();
+        private Form activeForm;
 
         public Login()
         {
@@ -70,17 +71,32 @@ namespace 객체지향_프로그래밍_프로젝트
                     MessageBox.Show("로그인 성공!");
                     success = true;
                     member.NickName = row["NickName"].ToString();
-                    MainPage mainPage = new MainPage(member);
-                    mainPage.ShowDialog();
+                    if (activeForm != null)
+                        activeForm.Close();
                     break;
                 }
             }
 
-            if (!success)
+
+            if (success)
+            {
+                MessageBox.Show("로그인 성공!");
+
+                // MainForm으로 돌아갑니다.
+                MainForm mainForm = Application.OpenForms.OfType<MainForm>().FirstOrDefault();
+                if (mainForm != null)
+                {
+                    mainForm.ReturnToMainForm();
+                }
+
+                this.Close(); // LoginForm을 닫습니다.
+            }
+            else
             {
                 MessageBox.Show("로그인 실패!");
             }
         }
+
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -111,6 +127,11 @@ namespace 객체지향_프로그래밍_프로젝트
 
         private void button5_Click(object sender, EventArgs e)
         {
+        }
+
+        private void Login_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

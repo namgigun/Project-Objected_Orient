@@ -113,6 +113,7 @@
             Controls.Add(IdBox);
             Name = "Login";
             Text = "Login";
+            Load += Login_Load_1;
             ResumeLayout(false);
             PerformLayout();
         }

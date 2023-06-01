@@ -18,7 +18,6 @@ namespace 객체지향_프로그래밍_프로젝트
         private Random random;
         private int tempIndex;
         private Form activeForm;
-
         //Constructor
         public MainForm()
         {
@@ -131,6 +130,16 @@ namespace 객체지향_프로그래밍_프로젝트
             currentButton = null;
             btnCloseChildForm.Visible = false;
         }
+
+        public void ReturnToMainForm()
+        {
+            Reset();
+            LoginButton.Enabled = false; 
+            // MainForm으로 돌아가는 동작을 수행합니다.
+            // 예를 들어, MainForm의 홈 화면을 표시하거나 다른 작업을 수행할 수 있습니다.
+            // 이 메서드를 필요에 따라 수정하여 원하는 동작을 수행하세요.
+        }
+
         private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();

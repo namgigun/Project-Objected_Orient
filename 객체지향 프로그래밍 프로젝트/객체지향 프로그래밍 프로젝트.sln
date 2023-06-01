@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaga_assign", "..\..\..\P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSPGame", "..\..\..\Project-Objected_Orient_Games\2.가위바위보.Y\이학성_가위바위보\RSPGame.csproj", "{F7B8F643-995C-4F3D-AA78-9D70210E66CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyingGame", "..\..\..\Project-Objected_Orient_Games\5.FlyingGame-master\FlyingGame-master\FlyingGame\FlyingGame.csproj", "{82078699-04AB-4479-9C67-67B7B5491E56}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,10 +63,6 @@ Global
 		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7B8F643-995C-4F3D-AA78-9D70210E66CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82078699-04AB-4479-9C67-67B7B5491E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82078699-04AB-4479-9C67-67B7B5491E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82078699-04AB-4479-9C67-67B7B5491E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82078699-04AB-4479-9C67-67B7B5491E56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

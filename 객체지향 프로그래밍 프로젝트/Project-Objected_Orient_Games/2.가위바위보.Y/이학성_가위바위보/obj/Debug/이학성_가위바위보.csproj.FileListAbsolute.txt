@@ -1,0 +1,16 @@
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\bin\Debug\이학성_가위바위보.exe.config
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\bin\Debug\이학성_가위바위보.exe
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\bin\Debug\이학성_가위바위보.pdb
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\obj\Debug\이학성_가위바위보.csprojResolveAssemblyReference.cache
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\obj\Debug\이학성_가위바위보.이학성_가위바위보.resources
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\obj\Debug\이학성_가위바위보.Properties.Resources.resources
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\obj\Debug\이학성_가위바위보.csproj.GenerateResource.Cache
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\obj\Debug\이학성_가위바위보.exe
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\obj\Debug\이학성_가위바위보.pdb
+c:\users\wet93\documents\visual studio 2017\Projects\이학성_가위바위보\이학성_가위바위보\bin\Debug\RSPGame.dll
+C:\Users\박민지\Desktop\993197335A04332E32\이학성_가위바위보\obj\Debug\이학성_가위바위보.exe
+C:\Users\박민지\Desktop\993197335A04332E32\이학성_가위바위보\obj\Debug\이학성_가위바위보.pdb
+C:\Users\박민지\Desktop\가위바위보.Y\이학성_가위바위보\obj\Debug\이학성_가위바위보.csproj.AssemblyReference.cache
+C:\Users\박민지\Desktop\가위바위보.Y\이학성_가위바위보\obj\Debug\이학성_가위바위보.csproj.SuggestedBindingRedirects.cache
+C:\Users\박민지\Desktop\가위바위보.Y\이학성_가위바위보\obj\Debug\이학성_가위바위보.exe
+C:\Users\박민지\Desktop\가위바위보.Y\이학성_가위바위보\obj\Debug\이학성_가위바위보.pdb

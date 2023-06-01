@@ -4,6 +4,81 @@
     "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트.csproj": {}
   },
   "projects": {
+    "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj",
+        "projectName": "Mine",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj",
+        "projectName": "RSPGame",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj",
+        "projectName": "Raccoon",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj",
+        "projectName": "MatchingGame",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj",
+        "projectName": "TetrisGame",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,32 +103,20 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj": {
-                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj"
+              "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj"
               },
-              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj": {
-                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj"
+              "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj"
               },
-              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj": {
-                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj"
+              "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj"
               },
-              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj": {
-                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj"
+              "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj"
               },
-              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj": {
-                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj"
-              },
-              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\5.FlyingGame-master\\FlyingGame-master\\FlyingGame\\FlyingGame.csproj": {
-                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\5.FlyingGame-master\\FlyingGame-master\\FlyingGame\\FlyingGame.csproj"
-              },
-              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\6.Snake-WinForm-main\\Snake-WinForm-main\\Snake\\Snake.csproj": {
-                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\6.Snake-WinForm-main\\Snake-WinForm-main\\Snake\\Snake.csproj"
-              },
-              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj": {
-                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj"
-              },
-              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\8.우주총미완성\\ProjectGalaga-main\\Galaga_assign\\Galaga_assign.csproj": {
-                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\8.우주총미완성\\ProjectGalaga-main\\Galaga_assign\\Galaga_assign.csproj"
+              "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj"
               }
             }
           }

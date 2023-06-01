@@ -1,0 +1,48 @@
+c:\users\devㅣalpha\documents\visual studio 2017\Projects\Mine\Mine\bin\Debug\Mine.exe.config
+c:\users\devㅣalpha\documents\visual studio 2017\Projects\Mine\Mine\bin\Debug\Mine.exe
+c:\users\devㅣalpha\documents\visual studio 2017\Projects\Mine\Mine\bin\Debug\Mine.pdb
+c:\users\devㅣalpha\documents\visual studio 2017\Projects\Mine\Mine\obj\Debug\Mine.csprojResolveAssemblyReference.cache
+c:\users\devㅣalpha\documents\visual studio 2017\Projects\Mine\Mine\obj\Debug\Mine.Form1.resources
+c:\users\devㅣalpha\documents\visual studio 2017\Projects\Mine\Mine\obj\Debug\Mine.Properties.Resources.resources
+c:\users\devㅣalpha\documents\visual studio 2017\Projects\Mine\Mine\obj\Debug\Mine.csproj.GenerateResource.Cache
+c:\users\devㅣalpha\documents\visual studio 2017\Projects\Mine\Mine\obj\Debug\Mine.exe
+c:\users\devㅣalpha\documents\visual studio 2017\Projects\Mine\Mine\obj\Debug\Mine.pdb
+C:\Users\DevㅣAlpha\Documents\Visual Studio 2017\Projects\Mine\Mine\obj\Debug\Mine.Form2.resources
+C:\Users\박민지\Desktop\99DD7F345E99C5E91A\Mine\obj\Debug\Mine.exe
+C:\Users\박민지\Desktop\99DD7F345E99C5E91A\Mine\obj\Debug\Mine.pdb
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\bin\Debug\Mine.exe.config
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\bin\Debug\Mine.exe
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\bin\Debug\Mine.pdb
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.AssemblyReference.cache
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.SuggestedBindingRedirects.cache
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.Form1.resources
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.Form2.resources
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.Properties.Resources.resources
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.GenerateResource.cache
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.CoreCompileInputs.cache
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.exe
+C:\Users\박민지\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.pdb
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\bin\Debug\Mine.exe.config
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\bin\Debug\Mine.exe
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\bin\Debug\Mine.pdb
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.AssemblyReference.cache
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.SuggestedBindingRedirects.cache
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.Form1.resources
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.Form2.resources
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.Properties.Resources.resources
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.GenerateResource.cache
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.CoreCompileInputs.cache
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.exe
+C:\Users\namgi\Desktop\지뢰찾기.Y\Mine\obj\Debug\Mine.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\bin\Debug\Mine.exe.config
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\bin\Debug\Mine.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\bin\Debug\Mine.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.AssemblyReference.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.SuggestedBindingRedirects.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\obj\Debug\Mine.Form1.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\obj\Debug\Mine.Form2.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\obj\Debug\Mine.Properties.Resources.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.GenerateResource.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\obj\Debug\Mine.csproj.CoreCompileInputs.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\obj\Debug\Mine.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\obj\Debug\Mine.pdb

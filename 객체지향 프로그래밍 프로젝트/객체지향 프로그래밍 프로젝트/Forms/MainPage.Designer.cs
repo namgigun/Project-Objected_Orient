@@ -32,10 +32,7 @@
             Game2_Start_Btn = new Button();
             Game3_Start_Btn = new Button();
             Game4_Start_Btn = new Button();
-            Game8_Start_Btn = new Button();
             Game7_Start_Btn = new Button();
-            Game6_Start_Btn = new Button();
-            Game5_Start_Btn = new Button();
             NickName_Label = new Label();
             button9 = new Button();
             Mypage_Button = new Button();
@@ -44,7 +41,7 @@
             // 
             // Game1_Start_Btn
             // 
-            Game1_Start_Btn.Location = new Point(126, 184);
+            Game1_Start_Btn.Location = new Point(187, 183);
             Game1_Start_Btn.Name = "Game1_Start_Btn";
             Game1_Start_Btn.Size = new Size(113, 94);
             Game1_Start_Btn.TabIndex = 0;
@@ -54,7 +51,7 @@
             // 
             // Game2_Start_Btn
             // 
-            Game2_Start_Btn.Location = new Point(260, 184);
+            Game2_Start_Btn.Location = new Point(321, 183);
             Game2_Start_Btn.Name = "Game2_Start_Btn";
             Game2_Start_Btn.Size = new Size(113, 94);
             Game2_Start_Btn.TabIndex = 1;
@@ -64,7 +61,7 @@
             // 
             // Game3_Start_Btn
             // 
-            Game3_Start_Btn.Location = new Point(395, 184);
+            Game3_Start_Btn.Location = new Point(456, 183);
             Game3_Start_Btn.Name = "Game3_Start_Btn";
             Game3_Start_Btn.Size = new Size(113, 94);
             Game3_Start_Btn.TabIndex = 2;
@@ -74,7 +71,7 @@
             // 
             // Game4_Start_Btn
             // 
-            Game4_Start_Btn.Location = new Point(532, 184);
+            Game4_Start_Btn.Location = new Point(387, 304);
             Game4_Start_Btn.Name = "Game4_Start_Btn";
             Game4_Start_Btn.Size = new Size(113, 94);
             Game4_Start_Btn.TabIndex = 3;
@@ -82,45 +79,15 @@
             Game4_Start_Btn.UseVisualStyleBackColor = true;
             Game4_Start_Btn.Click += Game4_Start_Btn_Click;
             // 
-            // Game8_Start_Btn
-            // 
-            Game8_Start_Btn.Location = new Point(532, 294);
-            Game8_Start_Btn.Name = "Game8_Start_Btn";
-            Game8_Start_Btn.Size = new Size(113, 94);
-            Game8_Start_Btn.TabIndex = 7;
-            Game8_Start_Btn.Text = "우주총미완성";
-            Game8_Start_Btn.UseVisualStyleBackColor = true;
-            Game8_Start_Btn.Click += Game8_Start_Btn_Click;
-            // 
             // Game7_Start_Btn
             // 
-            Game7_Start_Btn.Location = new Point(395, 294);
+            Game7_Start_Btn.Location = new Point(240, 304);
             Game7_Start_Btn.Name = "Game7_Start_Btn";
             Game7_Start_Btn.Size = new Size(113, 94);
             Game7_Start_Btn.TabIndex = 6;
             Game7_Start_Btn.Text = "테트리스";
             Game7_Start_Btn.UseVisualStyleBackColor = true;
             Game7_Start_Btn.Click += Game7_Start_Btn_Click;
-            // 
-            // Game6_Start_Btn
-            // 
-            Game6_Start_Btn.Location = new Point(260, 294);
-            Game6_Start_Btn.Name = "Game6_Start_Btn";
-            Game6_Start_Btn.Size = new Size(113, 94);
-            Game6_Start_Btn.TabIndex = 5;
-            Game6_Start_Btn.Text = "Snake";
-            Game6_Start_Btn.UseVisualStyleBackColor = true;
-            Game6_Start_Btn.Click += Game6_Start_Btn_Click;
-            // 
-            // Game5_Start_Btn
-            // 
-            Game5_Start_Btn.Location = new Point(126, 294);
-            Game5_Start_Btn.Name = "Game5_Start_Btn";
-            Game5_Start_Btn.Size = new Size(113, 94);
-            Game5_Start_Btn.TabIndex = 4;
-            Game5_Start_Btn.Text = "FlyingGame";
-            Game5_Start_Btn.UseVisualStyleBackColor = true;
-            Game5_Start_Btn.Click += Game5_Start_Btn_Click;
             // 
             // NickName_Label
             // 
@@ -169,10 +136,7 @@
             Controls.Add(Mypage_Button);
             Controls.Add(button9);
             Controls.Add(NickName_Label);
-            Controls.Add(Game8_Start_Btn);
             Controls.Add(Game7_Start_Btn);
-            Controls.Add(Game6_Start_Btn);
-            Controls.Add(Game5_Start_Btn);
             Controls.Add(Game4_Start_Btn);
             Controls.Add(Game3_Start_Btn);
             Controls.Add(Game2_Start_Btn);
@@ -190,10 +154,7 @@
         private Button Game2_Start_Btn;
         private Button Game3_Start_Btn;
         private Button Game4_Start_Btn;
-        private Button Game8_Start_Btn;
         private Button Game7_Start_Btn;
-        private Button Game6_Start_Btn;
-        private Button Game5_Start_Btn;
         private Label NickName_Label;
         private Button button9;
         private Button Mypage_Button;

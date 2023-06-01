@@ -1,0 +1,64 @@
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.deps.json
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.runtimeconfig.json
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.csproj.AssemblyReference.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.Login.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.MainPage.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.Mypage.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.csproj.GenerateResource.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.AssemblyInfoInputs.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.AssemblyInfo.cs
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.csproj.CoreCompileInputs.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\refint\객체지향 프로그래밍 프로젝트.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.genruntimeconfig.cache
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\ref\객체지향 프로그래밍 프로젝트.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향_프로그래밍_프로젝트.SignUpPage.resources
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\obj\Debug\net6.0-windows\객체지향 프로그래밍 프로젝트.csproj.CopyComplete
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\neoletters.ttf
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\FlyingGame.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Galaga_assign.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\MatchingGame.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\MatchingGame.Logic.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Mine.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Raccoon.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Snake.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\TetrisGame.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\이학성_가위바위보.exe
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\RSPGame.dll
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Mine.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Mine.exe.config
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\이학성_가위바위보.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\이학성_가위바위보.exe.config
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Raccoon.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Raccoon.exe.config
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\MatchingGame.Logic.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\MatchingGame.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\MatchingGame.exe.config
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\FlyingGame.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\FlyingGame.exe.config
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Snake.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Snake.exe.config
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\TetrisGame.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\TetrisGame.exe.config
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Galaga_assign.pdb
+C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\객체지향 프로그래밍 프로젝트\bin\Debug\net6.0-windows\Galaga_assign.exe.config

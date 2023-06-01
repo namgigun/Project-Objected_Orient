@@ -27,7 +27,35 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj"
+              },
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj"
+              },
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj"
+              },
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj"
+              },
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj"
+              },
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\5.FlyingGame-master\\FlyingGame-master\\FlyingGame\\FlyingGame.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\5.FlyingGame-master\\FlyingGame-master\\FlyingGame\\FlyingGame.csproj"
+              },
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\6.Snake-WinForm-main\\Snake-WinForm-main\\Snake\\Snake.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\6.Snake-WinForm-main\\Snake-WinForm-main\\Snake\\Snake.csproj"
+              },
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj"
+              },
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\8.우주총미완성\\ProjectGalaga-main\\Galaga_assign\\Galaga_assign.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\8.우주총미완성\\ProjectGalaga-main\\Galaga_assign\\Galaga_assign.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -39,6 +67,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,6 +94,145 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj",
+        "projectName": "Mine",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj",
+        "projectName": "RSPGame",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj",
+        "projectName": "Raccoon",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj",
+        "projectName": "MatchingGame.Logic",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj",
+        "projectName": "MatchingGame",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj": {
+                "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\5.FlyingGame-master\\FlyingGame-master\\FlyingGame\\FlyingGame.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\5.FlyingGame-master\\FlyingGame-master\\FlyingGame\\FlyingGame.csproj",
+        "projectName": "FlyingGame",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\5.FlyingGame-master\\FlyingGame-master\\FlyingGame\\FlyingGame.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\6.Snake-WinForm-main\\Snake-WinForm-main\\Snake\\Snake.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\6.Snake-WinForm-main\\Snake-WinForm-main\\Snake\\Snake.csproj",
+        "projectName": "Snake",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\6.Snake-WinForm-main\\Snake-WinForm-main\\Snake\\Snake.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj",
+        "projectName": "TetrisGame",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\8.우주총미완성\\ProjectGalaga-main\\Galaga_assign\\Galaga_assign.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\8.우주총미완성\\ProjectGalaga-main\\Galaga_assign\\Galaga_assign.csproj",
+        "projectName": "Galaga_assign",
+        "projectPath": "C:\\Users\\namgi\\Desktop\\Project-Objected_Orient_Games\\8.우주총미완성\\ProjectGalaga-main\\Galaga_assign\\Galaga_assign.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

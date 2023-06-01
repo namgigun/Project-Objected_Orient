@@ -28,22 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            Login_Button = new Button();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            PwdBox = new TextBox();
+            IdBox = new TextBox();
+            button2 = new Button();
             SuspendLayout();
             // 
-            // button1
+            // Login_Button
             // 
-            button1.Location = new Point(332, 288);
-            button1.Name = "button1";
-            button1.Size = new Size(121, 55);
-            button1.TabIndex = 11;
-            button1.Text = "로그인";
-            button1.UseVisualStyleBackColor = true;
+            Login_Button.Location = new Point(527, 178);
+            Login_Button.Name = "Login_Button";
+            Login_Button.Size = new Size(121, 55);
+            Login_Button.TabIndex = 11;
+            Login_Button.Text = "로그인";
+            Login_Button.UseVisualStyleBackColor = true;
+            Login_Button.Click += Login_Click;
             // 
             // label3
             // 
@@ -73,31 +75,42 @@
             label1.TabIndex = 8;
             label1.Text = "로그인 페이지";
             // 
-            // textBox2
+            // PwdBox
             // 
-            textBox2.Location = new Point(279, 223);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(226, 27);
-            textBox2.TabIndex = 7;
+            PwdBox.Location = new Point(279, 223);
+            PwdBox.Name = "PwdBox";
+            PwdBox.Size = new Size(226, 27);
+            PwdBox.TabIndex = 7;
             // 
-            // textBox1
+            // IdBox
             // 
-            textBox1.Location = new Point(279, 171);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(226, 27);
-            textBox1.TabIndex = 6;
+            IdBox.Location = new Point(279, 171);
+            IdBox.Name = "IdBox";
+            IdBox.Size = new Size(226, 27);
+            IdBox.TabIndex = 6;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(330, 280);
+            button2.Name = "button2";
+            button2.Size = new Size(121, 55);
+            button2.TabIndex = 12;
+            button2.Text = "회원가입";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += Move_Sign_Up;
             // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            Controls.Add(button2);
+            Controls.Add(Login_Button);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(PwdBox);
+            Controls.Add(IdBox);
             Name = "Login";
             Text = "Login";
             ResumeLayout(false);
@@ -106,11 +119,12 @@
 
         #endregion
 
-        private Button button1;
+        private Button Login_Button;
         private Label label3;
         private Label label2;
         private Label label1;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox PwdBox;
+        private TextBox IdBox;
+        private Button button2;
     }
 }

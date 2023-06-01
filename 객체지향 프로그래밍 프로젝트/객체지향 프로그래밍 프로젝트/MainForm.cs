@@ -152,6 +152,5 @@ namespace 객체지향_프로그래밍_프로젝트
             this.WindowState = FormWindowState.Minimized;
         }
 
-
     }
 }

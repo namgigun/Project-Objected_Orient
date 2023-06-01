@@ -9,6 +9,7 @@
       "객체지향 프로그래밍 프로젝트/1.0.0": {
         "dependencies": {
           "MatchingGame": "1.0.0",
+          "MatchingGame.Logic": "1.0.0",
           "Mine": "1.0.0",
           "MySql.Data": "8.0.33",
           "RSPGame": "1.0.0",
@@ -249,8 +250,16 @@
         }
       },
       "MatchingGame/1.0.0": {
+        "dependencies": {
+          "MatchingGame.Logic": "1.0.0"
+        },
         "runtime": {
           "MatchingGame.exe": {}
+        }
+      },
+      "MatchingGame.Logic/1.0.0": {
+        "runtime": {
+          "MatchingGame.Logic.dll": {}
         }
       },
       "Mine/1.0.0": {
@@ -276,14 +285,6 @@
       "RSPGame.Reference/1.0.0.0": {
         "runtime": {
           "RSPGame.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "MatchingGame.Logic/1.0.0.0": {
-        "runtime": {
-          "MatchingGame.Logic.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -512,6 +513,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "MatchingGame.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Mine/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -533,11 +539,6 @@
       "sha512": ""
     },
     "RSPGame.Reference/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MatchingGame.Logic/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

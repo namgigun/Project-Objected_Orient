@@ -76,3 +76,15 @@ C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 
 C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.csproj.CoreCompileInputs.cache
 C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.exe
 C:\Users\namgi\Desktop\Git\Project-Objected_Orient\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.pdb
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\bin\Debug\neoletters.ttf
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\bin\Debug\Raccoon.exe.config
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\bin\Debug\Raccoon.exe
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\bin\Debug\Raccoon.pdb
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.csproj.AssemblyReference.cache
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.csproj.SuggestedBindingRedirects.cache
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.RacconForm.resources
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.Properties.Resources.resources
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.csproj.GenerateResource.cache
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.csproj.CoreCompileInputs.cache
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.exe
+C:\Users\박민지\Desktop\객체지향\객체지향 프로그래밍 프로젝트\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\obj\Debug\Raccoon.pdb

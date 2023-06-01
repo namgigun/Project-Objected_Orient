@@ -33,7 +33,7 @@ namespace 객체지향_프로그래밍_프로젝트
             LoadTheme();
         }
 
-            private void LoadTheme()
+        private void LoadTheme()
         {
             foreach (Control btns in this.Controls)
             {

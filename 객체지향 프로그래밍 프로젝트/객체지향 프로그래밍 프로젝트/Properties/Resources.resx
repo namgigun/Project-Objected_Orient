@@ -121,11 +121,17 @@
   <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="free-icon-game-development-6840490" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-game-development-6840490.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="free-icon-game-control-6875330" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-icon-game-control-6875330.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="free-icon-sign-out-6461401" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-icon-sign-out-6461401.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-letter-x-4553028" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-letter-x-4553028.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="free-icon-user-7718888" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-icon-user-7718888.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +142,7 @@
   <data name="free-icon-login-171206" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-icon-login-171206.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="free-icon-letter-x-4553028" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-icon-letter-x-4553028.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="free-icon-laptop-4832718 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-laptop-4832718 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

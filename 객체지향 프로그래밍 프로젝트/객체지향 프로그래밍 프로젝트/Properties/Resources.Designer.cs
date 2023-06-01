@@ -73,6 +73,26 @@ namespace 객체지향_프로그래밍_프로젝트.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap free_icon_game_development_6840490 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-game-development-6840490", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_laptop_4832718__1_ {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-laptop-4832718 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap free_icon_letter_x_4553028 {
             get {
                 object obj = ResourceManager.GetObject("free-icon-letter-x-4553028", resourceCulture);

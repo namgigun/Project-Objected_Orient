@@ -17,6 +17,7 @@
     <ProjectReference Include="..\Project-Objected_Orient_Games\1.지뢰찾기.Y\Mine\Mine.csproj" />
     <ProjectReference Include="..\Project-Objected_Orient_Games\2.가위바위보.Y\이학성_가위바위보\RSPGame.csproj" />
     <ProjectReference Include="..\Project-Objected_Orient_Games\3.Raccoon.Y\Raccoon\Raccoon.csproj" />
+    <ProjectReference Include="..\Project-Objected_Orient_Games\4.matching-game-master\matching-game-master\MatchingGame\MatchingGame.Logic\MatchingGame.Logic.csproj" />
     <ProjectReference Include="..\Project-Objected_Orient_Games\4.matching-game-master\matching-game-master\MatchingGame\MatchingGame\MatchingGame.csproj" />
     <ProjectReference Include="..\Project-Objected_Orient_Games\7.테트리스\TetrisGame-main\TetrisGame\TetrisGame.csproj" />
   </ItemGroup>

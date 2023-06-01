@@ -515,11 +515,23 @@
       },
       "MatchingGame/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "MatchingGame.Logic": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MatchingGame.dll": {}
         },
         "runtime": {
           "bin/placeholder/MatchingGame.dll": {}
+        }
+      },
+      "MatchingGame.Logic/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MatchingGame.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MatchingGame.Logic.dll": {}
         }
       },
       "Mine/1.0.0": {
@@ -1753,6 +1765,11 @@
       "path": "../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame/MatchingGame.csproj",
       "msbuildProject": "../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame/MatchingGame.csproj"
     },
+    "MatchingGame.Logic/1.0.0": {
+      "type": "project",
+      "path": "../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame.Logic/MatchingGame.Logic.csproj",
+      "msbuildProject": "../Project-Objected_Orient_Games/4.matching-game-master/matching-game-master/MatchingGame/MatchingGame.Logic/MatchingGame.Logic.csproj"
+    },
     "Mine/1.0.0": {
       "type": "project",
       "path": "../Project-Objected_Orient_Games/1.지뢰찾기.Y/Mine/Mine.csproj",
@@ -1777,6 +1794,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "MatchingGame >= 1.0.0",
+      "MatchingGame.Logic >= 1.0.0",
       "Mine >= 1.0.0",
       "MySql.Data >= 8.0.33",
       "RSPGame >= 1.0.0",
@@ -1785,19 +1803,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\namgi\\.nuget\\packages\\": {}
+    "C:\\Users\\박민지\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트.csproj",
+      "projectUniqueName": "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트.csproj",
       "projectName": "객체지향 프로그래밍 프로젝트",
-      "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트.csproj",
-      "packagesPath": "C:\\Users\\namgi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트\\obj\\",
+      "projectPath": "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트.csproj",
+      "packagesPath": "C:\\Users\\박민지\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\namgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\박민지\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1805,26 +1828,30 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj"
+            "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj": {
+              "projectPath": "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\1.지뢰찾기.Y\\Mine\\Mine.csproj"
             },
-            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj"
+            "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj": {
+              "projectPath": "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\2.가위바위보.Y\\이학성_가위바위보\\RSPGame.csproj"
             },
-            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj"
+            "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj": {
+              "projectPath": "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\3.Raccoon.Y\\Raccoon\\Raccoon.csproj"
             },
-            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj"
+            "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj": {
+              "projectPath": "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame.Logic\\MatchingGame.Logic.csproj"
             },
-            "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj": {
-              "projectPath": "C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj"
+            "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj": {
+              "projectPath": "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\4.matching-game-master\\matching-game-master\\MatchingGame\\MatchingGame\\MatchingGame.csproj"
+            },
+            "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj": {
+              "projectPath": "C:\\Users\\박민지\\Desktop\\객체지향\\객체지향 프로그래밍 프로젝트\\Project-Objected_Orient_Games\\7.테트리스\\TetrisGame-main\\TetrisGame\\TetrisGame.csproj"
             }
           }
         }
@@ -1863,16 +1890,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "캐시 파일 C:\\Users\\namgi\\Desktop\\Git\\Project-Objected_Orient\\객체지향 프로그래밍 프로젝트\\객체지향 프로그래밍 프로젝트\\obj\\project.nuget.cache을(를) 읽는 동안 문제가 발생했습니다. Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -99,7 +99,6 @@ namespace 객체지향_프로그래밍_프로젝트
             if (table.Rows.Count == 0)
             {
                 MessageBox.Show("사용가능한 아이디입니다.");
-                Id_Chk = true;
             }
 
             else

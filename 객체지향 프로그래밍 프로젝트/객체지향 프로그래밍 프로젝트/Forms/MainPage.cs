@@ -8,12 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Galaga_assign;
 using MatchingGame;
 using Mine;
 using Raccoon;
-using Snake;
-using FlyingGame;
 using 이학성_가위바위보;
 using TetrisGame.Forms;
 

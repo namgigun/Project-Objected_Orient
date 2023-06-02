@@ -19,6 +19,7 @@ namespace 객체지향_프로그래밍_프로젝트
         private int tempIndex;
         private Form activeForm;
 
+        DBManager dBManager;
         private Boolean Login_Success = false;
         private Member member = new Member();
         private UserInfo userInfo = new UserInfo();
@@ -128,7 +129,7 @@ namespace 객체지향_프로그래밍_프로젝트
 
             else
             {
-                MainPage mainPage = new MainPage(member);
+                MainPage mainPage = new MainPage(member,userInfo);
                 OpenChildForm(mainPage, sender);
             }
         }

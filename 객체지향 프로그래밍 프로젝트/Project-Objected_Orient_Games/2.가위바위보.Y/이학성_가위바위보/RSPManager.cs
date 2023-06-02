@@ -8,7 +8,6 @@ namespace 이학성_가위바위보
 {
     public class RSPManager
     {
-        public int highScore;
         public int points;
 
         public int Points(int value)

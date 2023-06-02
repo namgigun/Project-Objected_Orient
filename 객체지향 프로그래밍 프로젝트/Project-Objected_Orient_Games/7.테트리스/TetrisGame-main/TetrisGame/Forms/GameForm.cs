@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 using TetrisGame.Classes.Utils;
 using TetrisGame.Entities;
@@ -20,9 +21,22 @@ namespace TetrisGame.Forms
         private bool gameOver;
         private Tetrimino currentShape;
         GameSettings gameSettings = new GameSettings();
+        private MenuForm menuForm;
 
         public GameForm()
         {
+            InitializeComponent();
+            SetContainerLocation();
+            menu_panel.Hide();
+            DoubleBuffered = true;
+            this.Resize += onResize;
+            this.KeyPreview = true;
+            this.PreviewKeyDown += new PreviewKeyDownEventHandler(OnKeyDown);
+            StartGame();
+        }
+
+        public GameForm(MenuForm menuForm) {
+            this.menuForm = menuForm;
             InitializeComponent();
             SetContainerLocation();
             menu_panel.Hide();
@@ -114,8 +128,9 @@ namespace TetrisGame.Forms
         private void GameOver()
         {
             gameOver = true;
-            
             MessageBox.Show("Game Over");
+            menuForm.tetrisManager.Points(GameData.Score / 100);
+            menuForm.tetrisManager.highScore = GameData.Score;
         }
 
         protected override void OnPaint(PaintEventArgs e)

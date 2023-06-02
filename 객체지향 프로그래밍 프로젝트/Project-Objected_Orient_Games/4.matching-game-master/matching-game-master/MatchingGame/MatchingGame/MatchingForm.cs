@@ -90,6 +90,7 @@ namespace MatchingGame
             GameSettings.Instance.UpdateScore(_game.Turns);
 
             matchingManager.UpdatePoints(100 / _game.Turns);
+            matchingManager.highScore = bestScore;
 
             string text;
             if (bestScore == 0)

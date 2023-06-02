@@ -30,6 +30,7 @@ namespace Mine
                 {
                     MessageBox.Show("승리!");
                     Manager.UpdatePoints(20);
+                    Manager.Clear += 1;
                     F_Map.Enabled = false;
                 }
 

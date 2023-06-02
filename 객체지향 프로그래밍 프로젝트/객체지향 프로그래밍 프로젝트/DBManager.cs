@@ -59,7 +59,33 @@ namespace 객체지향_프로그래밍_프로젝트
         }
 
         public void update(String Query) { // 업데이트
-            
+
+            using (connection) {
+
+                try
+                {
+                    connection.Open();
+
+                    MySqlCommand command = new MySqlCommand(Query, connection);
+
+                    if (command.ExecuteNonQuery() == 1)
+                    {
+                        Console.WriteLine("업데이트 성공");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("업데이트 실패");
+                    }
+
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine("실패");
+                    Console.WriteLine(ex.ToString());
+                }
+            }
+
         }
     }
 }

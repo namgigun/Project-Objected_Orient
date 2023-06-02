@@ -8,7 +8,7 @@ namespace Mine
 {
     public class MineManager
     {
-        public int highScore;
+        public int Clear = 0;
         public int points;
 
         public int Points(int value) {

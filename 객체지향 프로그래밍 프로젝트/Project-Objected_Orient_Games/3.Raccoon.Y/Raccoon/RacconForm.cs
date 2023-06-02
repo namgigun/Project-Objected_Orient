@@ -106,6 +106,7 @@ namespace Raccoon
 
         private void RacconForm_FormClosed(object sender, FormClosedEventArgs e)
         {
+            raManager.highScore = obstruction.score + enemy.score;
             raManager.UpdatePoints((obstruction.score + enemy.score) / 100);
         }
     }
